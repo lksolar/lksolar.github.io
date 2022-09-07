@@ -1,0 +1,190 @@
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: aliceblue;
+  font-size: 15px;
+  padding: 10px 12px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: lightgrey;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.info-dot:hover {
+  background-color: greenyellow;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.full-container {
+    width: 100%
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.info-dot {
+    height: 25px;
+    width: 25px;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+.dot-position-1 {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  z-index: 600;
+}
+
+.dot-position-1-2 {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  z-index: 600;
+}
+
+.dot-position-2 {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  z-index: 600;
+}
+
+.dot-position-2-2 {
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  z-index: 600;
+}
+
+.dot-position-3 {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  z-index: 600;
+}
+
+.dot-position-3-2 {
+  position: absolute;
+  left: 80%;
+  top: 60%;
+  z-index: 600;
+}
+
+.dot-position-4 {
+  position: absolute;
+  right: 20%;
+  bottom: 20%;
+  z-index: 999;
+}
+
+.random-stuff-pos-1 {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  z-index: 999;
+}
+
+.hide-custom {
+  visibility: hidden;
+}
+
+.myDIV:hover + .hide-custom {
+  visibility: visible;
+}
+
+#show-box {
+  border-radius: 15px 50px;
+  background: skyblue;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+} 
+
+.carousel-button-quote {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+  position: absolute;
+  left: 40%;
+  bottom: 6%;
+}
+
+.carousel-button-other {
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+  position: absolute;
+  left: 60%;
+  bottom: 6%;
+}

@@ -12,11 +12,17 @@ body {font-family: "Lato", sans-serif}
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="javascript/slideshow.js"></script>
+<link rel="stylesheet" href="/css/global.css">
+<link rel="stylesheet" href="/css/index.css">
 
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color:lightgreen">
     <a class="navbar-brand" href="#">Solar Logo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,7 +33,7 @@ body {font-family: "Lato", sans-serif}
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/solar-panels">Solar Panels</a>
+          <a class="nav-link" href="pages/solar-panels.html">Solar Panels</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="pages/pricing.html">Pricing</a>
@@ -36,9 +42,76 @@ body {font-family: "Lato", sans-serif}
     </div>
   </nav>
 
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div style="max-width:2000px">
+  <div>
 
-  
+    <div class="full-container" style="width:100%">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <div class="carousel-inner">
+          <div class="item active">
+            <span class="info-dot dot-position-1 myDIV"></span>
+            <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 1</p></span>
+            <span class="info-dot dot-position-1-2 myDIV"></span>
+            <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 1-2</p></span>
+            <a href="#">
+              <button class="carousel-button-quote" type="button">Click Me 1!</button>
+            </a>
+            <a href="#">
+              <button class="carousel-button-other" type="button">Click Me 1.2!</button>
+            </a>
+            <img src="/images/solar_1.png" alt="Solar 1" style="width:100%;">
+          </div>
+    
+          <div class="item">
+            <span class="info-dot dot-position-2 myDIV"></span>
+            <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2</p></span>
+            <span class="info-dot dot-position-2-2 myDIV"></span>
+            <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2-2</p></span>
+            <a href="#">
+              <button class="carousel-button-quote" type="button">Click Me 1!</button>
+            </a>
+            <a href="#">
+              <button class="carousel-button-other" type="button">Click Me 2!</button>
+            </a>
+            <img src="/images/solar_2.png" alt="Solar 2" style="width:100%;">
+          </div>
+        
+          <div class="item">
+            <span class="info-dot dot-position-3 myDIV"></span>
+            <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3</p></span>
+            <span class="info-dot dot-position-3-2 myDIV"></span>
+            <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3-2</p></span>
+            <a href="#">
+              <button class="carousel-button-quote" type="button">Click Me 1!</button>
+            </a>
+            <a href="#">
+              <button class="carousel-button-other" type="button">Click Me 3!</button>
+            </a>
+            <img src="/images/solar_3.png" alt="Solar 3" style="width:100%;">
+          </div>
+        </div>
+
+
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
   <div style="max-width:800px">
     <h2 class="text-center">Home</h2>
     <p class="text-center"><i>Needs Designs</i></p>
