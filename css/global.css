@@ -1,3 +1,20 @@
 .active {
     background-color: grey;
 }
+
+.parent-content {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .child-content {
+    display: block;
+  }
+  
+  .text-content-centered {
+    display: relative;
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+  }

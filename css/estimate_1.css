@@ -1,0 +1,46 @@
+.estimate-heading {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.estimate-boxes-container {
+    align-content: center;
+
+}
+
+.back-box {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 50px;
+    height: 150px;
+}
+
+.box-back-left {
+    position: absolute;
+    left: 5%;
+}
+
+.estimate-boxes {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.box-float-left {
+    position: absolute;
+    left: 20%;
+}
+
+.box-float-center {
+    position: absolute;
+    left: 40%;
+}
+
+.box-float-right {
+    position: absolute;
+    left: 60%;
+}
