@@ -159,14 +159,13 @@
   background-color: red; /* Green */
   border: none;
   color: white;
-  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
-  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
   position: absolute;
   left: 40%;
   bottom: 6%;
@@ -176,14 +175,13 @@
   background-color: green; /* Green */
   border: none;
   color: white;
-  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
-  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
   position: absolute;
   left: 60%;
   bottom: 6%;
