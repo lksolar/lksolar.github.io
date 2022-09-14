@@ -25,14 +25,14 @@
 .estimate-boxes {
     border-radius: 25px;
     border: 2px solid #73AD21;
-    padding: 20px;
-    width: 200px;
+    padding: 2.5%;
+    width: 20%;
     height: 150px;
 }
 
 .box-float-left {
     position: absolute;
-    left: 20%;
+    left: 15%;
 }
 
 .box-float-center {
@@ -42,5 +42,5 @@
 
 .box-float-right {
     position: absolute;
-    left: 60%;
+    right: 15%;
 }

@@ -40,7 +40,7 @@ section {
 }
 
 button.next-btn,
-button.previous-btn,
+button.prev-btn,
 button.submit-btn {
   float: right;
   margin-top: 20px;
@@ -53,7 +53,7 @@ button.submit-btn {
   cursor: pointer;
   /* text-align: right; */
 }
-button.previous-btn {
+button.prev-btn {
   float: left;
 }
 button.submit-btn {
