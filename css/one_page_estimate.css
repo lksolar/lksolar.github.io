@@ -59,3 +59,8 @@ button.prev-btn {
 button.submit-btn {
   background-color: aquamarine;
 }
+
+.spacing {
+  height: 400px;
+  display: block;
+}

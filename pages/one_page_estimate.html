@@ -17,6 +17,7 @@
     <script> 
         $(function(){
             $("#header").load("/assets/header.html"); 
+            $("#footer").load("/assets/footer.html"); 
         });
     </script> 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
@@ -207,6 +208,8 @@
       </form>
     </div>
   </section>
+  <span class="spacing"></span>
+  <div id="footer"></div>
 </body>
 <script>
     const steps = Array.from(document.querySelectorAll("form .step"));
