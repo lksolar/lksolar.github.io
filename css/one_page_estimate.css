@@ -64,3 +64,10 @@ button.submit-btn {
   height: 400px;
   display: block;
 }
+
+.button.next-btn {
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
