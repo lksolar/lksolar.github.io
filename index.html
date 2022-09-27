@@ -27,6 +27,7 @@
       $(function(){
         $("#header").load("/assets/header.html"); 
         $("#privacy-policy").load("/assets/privacy_policy.html"); 
+        $("#footer").load("/assets/footer.html"); 
       });
     </script> 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
@@ -114,16 +115,64 @@
 
         <div class="parent-content">
           <div class="parent-content text-content-centered">
-            <h2 class="text-center">Home</h2>
+            <h2 class="text-center">About Us!</h2>
             <p class="text-center"><i>Needs Designs</i></p>
-            <p class="text-center">Hosted here cause it's free, will get proper setup URL etc when we have a name
+            <p class="text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
               adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
+          <div class="parent-content text-content-centered">
+            <h2 class="text-center">Why Vision Solar</h2>
+            <div class="why-vs-boxes-container">
+              <div>
+                <!-- Box 1 of 3 -->
+                <a class="next-btn">
+                  <div class="why-boxes box-float-left">
+                    <p>Box 1 goes here</p>
+                  </div>
+                </a>
+                <!-- Box 2 of 3 -->
+                <a class="next-btn">
+                  <div class="why-boxes box-float-center">
+                    <p>Box 2 goes here</p>
+                  </div>
+                </a>
+                <!-- Box 3 of 3 -->
+                <a class="next-btn">
+                  <div class="why-boxes box-float-right">
+                    <p>Box 3 goes here</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <span class="box-spacer-y"></span>
+            <div class="why-vs-boxes-container">
+              <div>
+                <!-- Box 1 of 3 -->
+                <a class="next-btn">
+                  <div class="why-boxes box-float-left">
+                    <p>Box 1 goes here</p>
+                  </div>
+                </a>
+                <!-- Box 2 of 3 -->
+                <a class="next-btn">
+                  <div class="why-boxes box-float-center">
+                    <p>Box 2 goes here</p>
+                  </div>
+                </a>
+                <!-- Box 3 of 3 -->
+                <a class="next-btn">
+                  <div class="why-boxes box-float-right">
+                    <p>Box 3 goes here</p>
+                  </div>
+                </a>
+              </div>
+            </div>
 
-          <div class="parent-content">
+
+          <!-- <div class="parent-content">
             <div class="child-content" id="myChart" style="width: 100%; height: 40%;"></div>
           </div>
           <script>
@@ -149,11 +198,12 @@
             var chart = new google.visualization.LineChart(document.getElementById('myChart'));
             chart.draw(data, options);
             }
-          </script>
+          </script> -->
         
 
 
-          <div class="parent-content">
+          <!-- <div class="parent-content">
+            <br />
             <h2 class="text-center child-content">CONTACT US</h2>
             <p class="text-center"><i>Get in touch today for a quote!</i></p>
             <div>
@@ -182,8 +232,11 @@
                 </form>
               </div>
             </div>
-          </div> 
+          </div>  -->
         </div>
+        </div>
+        <span class="spacing"></span>
+        <div id="footer"></div>
       
     </body>
 </html>
