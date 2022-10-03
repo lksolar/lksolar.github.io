@@ -30,5 +30,13 @@
             var x = document.getElementById("cookie-consent-banner");
             x.style.display = "none";
         }
-        </script>      
+        var banner = document.getElementById('cookie-consent-banner');
+        if (sessionStorage.getItem('set') === 'set') {
+          banner.style.display = 'none';
+        } else {
+          sessionStorage.setItem('set', 'set');
+        }
+      </script>      
     </body>
+
+    
