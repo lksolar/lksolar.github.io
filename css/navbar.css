@@ -39,6 +39,7 @@ ul.nav__list {
 	position: relative;
 	display: flex;
     z-index: 999;
+	margin-top: 0;
 }
 
 ul.nav__list li {
