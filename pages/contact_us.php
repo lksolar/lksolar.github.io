@@ -34,24 +34,56 @@
                     </fieldset>
                 </form>
                 <?php
-$to_email = "lukeamk@gmail.com";
-$subject = "Test email to send from XAMPP";
-$body = "Hi, This is test mail to check how to send mail from Localhost Using Gmail ";
-$headers = "From: sender email";
-ini_set('SMTP','smtp.gmail.com');
-ini_set('smtp_port',587);
-ini_set('sendmail_from','lukekellysws@gmail.com');
-ini_set('auth_username','lukekellysws@gmail.com');
-ini_set('auth_password','sflhmgesrfpdpaei');
- 
-if (mail($to_email, $subject, $body, $headers))
- 
-{
-    echo "Email successfully sent to $to_email...";
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+try {
+
+    $mail->isSMTP();                                      // Set mailer to use SMTP
+    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+    $mail->Port = 465;
+    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    $mail->UserName = 'lukekellysws@gmail.com';                 // SMTP username
+    $mail->Password = 'bstoaqaclgrawqks';                           // SMTP password
+    $mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl' also accepted
+    // $mail->SMTPOptions = array(
+    //     'ssl' => array(
+    //         'verify_peer' => false,
+    //         'verify_peer_name' => false,
+    //         'allow_self_signed' => true
+    //     )
+    // );
+    $mail->SMTPDebug = 2;
+
+    $mail->From = 'lukekellysws@gmail.com';
+    $mail->FromName = 'Mailer';
+    $mail->addAddress('lukeamk@gmail.com', 'Joe User');     // Add a recipient
+    $mail->addAddress('lukekellysws@gmail.com');               // Name is optional
+    // $mail->addReplyTo('info@example.com', 'Information');
+    // $mail->addCC('cc@example.com');
+    // $mail->addBCC('bcc@example.com');
+
+    // $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
+    // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+    $mail->isHTML(true);                                  // Set email format to HTML
+
+    $mail->Subject = 'Here is the subject';
+    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+    $mail->send();
+    echo 'Message has been sent';
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}{$e}";
 }
- 
-else
- 
-{
-    echo "Email sending failed!";
-}
+?>
