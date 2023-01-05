@@ -2,6 +2,10 @@
     left: 5%;
 }
 
+#vision-solar-logo {
+	max-width: 40%;
+}
+
 .solar-logo-text {
     color: white;
 }
