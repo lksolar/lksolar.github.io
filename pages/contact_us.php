@@ -1,6 +1,4 @@
-
-                <?php
-                 echo 'Message';
+<?php
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -19,8 +17,8 @@ try {
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->Port = 465;
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->UserName = 'lukekellysws@gmail.com';                 // SMTP username
-    $mail->Password = 'bstoaqaclgrawqks';                           // SMTP password
+    $mail->Username = 'lukekellysws@gmail.com';                 // SMTP username
+    $mail->Password = 'arzsfgrujgkamrsw';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl' also accepted
     // $mail->SMTPOptions = array(
     //     'ssl' => array(
@@ -53,4 +51,5 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}{$e}";
 }
+
 ?>
