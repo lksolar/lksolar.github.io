@@ -27,7 +27,7 @@ try {
     //         'allow_self_signed' => true
     //     )
     // );
-    $mail->SMTPDebug = 2;
+    $mail->SMTPDebug = True;
 
     $mail->From = 'lukekellysws@gmail.com';
     $mail->FromName = 'Mailer';
