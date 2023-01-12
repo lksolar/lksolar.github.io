@@ -36,6 +36,7 @@ try {
     $mail->FromName = 'Mailer';
     // $mail->addAddress('lukeamk@gmail.com', 'Joe User');     // Add a recipient
     $mail->addAddress('lukekellysws@gmail.com');               // Name is optional
+    $mail->addAddress('admin@visionsolar.ie');
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
