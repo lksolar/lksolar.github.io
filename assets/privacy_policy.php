@@ -16,17 +16,17 @@
             </div>
       
           <div class="cookie-consent-banner__actions">
-            <a onclick="myFunction()" href="#" class="cookie-consent-banner__cta">
+            <a  href="#" class="cookie-consent-banner__cta">
                 OK
             </a>
             
-            <a onclick="myFunction()" href="#" class="cookie-consent-banner__cta cookie-consent-banner__cta--secondary">
+            <a  href="#" class="cookie-consent-banner__cta cookie-consent-banner__cta--secondary">
               Decline
             </a>
           </div>
         </div>
       </div>
-      <script>
+      <!-- <script>
         function myFunction() {
             var x = document.getElementById("cookie-consent-banner");
             x.style.display = "none";
@@ -36,7 +36,7 @@
         if (sessionStorage.getItem('set') === 'set') {
           banner.style.display = 'none';
         } 
-      </script>      
+      </script>       -->
     </body>
 
     

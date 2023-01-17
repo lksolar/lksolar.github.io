@@ -57,6 +57,7 @@
 </script>
 <body>
 <?php include 'assets/header.php';?>
+<!-- <?php include 'assets/privacy-policy.php';?> -->
 
     <!-- <div id="header"></div> -->
     <div id="privacy-policy"></div>

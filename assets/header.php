@@ -18,21 +18,21 @@
     <i class="fas fa-bars"></i>
     </label>
     
-    <div class="solar-logo"><img src="../images/Logo.Brand_VS-02.png" alt="Vision Solar" id="vision-solar-logo"></div>
+    <div class="solar-logo"><img src="../../images/Logo.Brand_VS-02.png" alt="Vision Solar" id="vision-solar-logo"></div>
     
     <nav class="header__menu__nav">
         <ul class="nav__list">
             <li>
-                <a href="../../index.html">Home</a>
+                <a href="../../index.php">Home</a>
             </li>
             <li>
-                <a href="../../pages/instant_quote_calculator.html">Quote</a>
+                <a href="../../pages/instant_quote_calculator.php">Quote</a>
             </li>
             <li>
-                <a href="../../pages/pricing.html">About</a>
+                <a href="../../pages/about.php">About</a>
             </li>
             <li>
-                <a href="../../pages/contact_us.html">Contact</a>
+                <a href="../../pages/contact_us.php">Contact</a>
             </li>
         </ul>
     </nav>

@@ -33,8 +33,8 @@ body {font-family: "Lato", sans-serif}
 <!-- <link rel="stylesheet" href="/css/index.css"> -->
 </head>
 <body>
-
-  <div id="header"></div>
+<?php include '../assets/header.php';?>
+  <!-- <div id="header"></div> -->
   <div id="privacy-policy"></div>
 
 <div class="w3-content" style="max-width:2000px;margin-top:46px">

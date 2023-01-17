@@ -23,7 +23,7 @@
   <body>
   <?php include '../assets/header.php';?>
     
-  <?php include '../assets/privacy_policy.php';?>
+  <div id="privacy-policy"></div>
 
 <section>
     <div>
@@ -183,7 +183,7 @@
             <input type="text" id="fname" name="fname" value="John"><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname" value="Doe"><br><br>
-            <input type="button" name="submit" class="next-btn">
+            <input type="button" class="next-btn" value="Next">
         </div>
 
         <div class="step step-5">
