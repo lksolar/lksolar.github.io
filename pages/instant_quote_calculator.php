@@ -14,7 +14,7 @@
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
     </script>
-  
+    <link rel="icon" type="image/png" href="../images/Vision_solar_logo_eye_sun_small.png">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/one_page_estimate.css">
     <link rel="stylesheet" href="/css/estimate_2.css">
