@@ -16,27 +16,24 @@ include '../.secrets/secrets.php';
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
-echo $password;
-
-// sleep(30);
-// if(isset($_POST['submit'])){ 
-//     $panelKit = $_POST["submit"];
-//     if($panelKit == "Learn More about our 6 Panel Kit"){
-//         header("Location: /pages/solar-kits/6_panels.php");
-//         die();
-//     }
-//     if($panelKit == "Learn More About our 14 Panel kit"){
-//         header("Location: /pages/solar-kits/14_panels.php");
-//         die();
-//     }
-//     if($panelKit == "Learn More about our 16 Panel kit options"){
-//         header("Location: /pages/solar-kits/16_panels.php");
-//         die();
-//     }
-// } else {
-//     header("Location: /pages/solar-kits/6_panels.php");
-//     die();
-// }
+if(isset($_POST['submit'])){ 
+    $panelKit = $_POST["submit"];
+    if($panelKit == "Learn More about our 6 Panel Kit"){
+        header("Location: /pages/solar-kits/6_panels.php");
+        die();
+    }
+    if($panelKit == "Learn More About our 14 Panel kit"){
+        header("Location: /pages/solar-kits/14_panels.php");
+        die();
+    }
+    if($panelKit == "Learn More about our 16 Panel kit options"){
+        header("Location: /pages/solar-kits/16_panels.php");
+        die();
+    }
+} else {
+    header("Location: /pages/solar-kits/6_panels.php");
+    die();
+}
 // try {
 
 //     $mail->isSMTP();                                      // Set mailer to use SMTP
