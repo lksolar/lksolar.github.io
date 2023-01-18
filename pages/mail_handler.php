@@ -15,6 +15,7 @@ include '../.secrets/secrets.php';
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
+echo $password;
 if(isset($_POST['submit'])){ 
     $panelKit = $_POST["submit"];
     if($panelKit == "Learn More about our 6 Panel Kit"){
