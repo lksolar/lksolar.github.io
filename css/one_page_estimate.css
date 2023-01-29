@@ -73,3 +73,7 @@ button.submit-btn {
   *display: inline;
   zoom: 1;
 }
+
+.spacing {
+  height: 300px;
+}

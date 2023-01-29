@@ -217,6 +217,7 @@
       </form>
     </div>
   </section>
+  <span class="spacing"></span>
   <?php include '../assets/footer.php';?>
 </body>
 <script>

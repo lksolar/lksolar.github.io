@@ -98,12 +98,12 @@
                 <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3-2</p></span>
                 <img src="/images/solar_3.png" alt="Solar 3" style="width:100%;">
               </div>
-              <a href="/pages/instant_quote_calculator.html">
-                <button class="carousel-button-quote" type="button">Get an Instant Quote!</button>
+              <a href="/pages/instant_quote_calculator.php">
+                <button class="carousel-button-quote" type="button"><p class=quote_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
               </a>
-              <a href="/pages/grant_calculator.html">
+              <!-- <a href="/pages/grant_calculator.html">
                 <button class="carousel-button-other" type="button">Grant Calculator!</button>
-              </a>
+              </a> -->
             </div>
 
             <!-- Left and right controls -->
@@ -119,41 +119,42 @@
         </div>
 
         <div class="parent-content">
-          <div class="parent-content text-content-centered">
+          <!-- <div class="parent-content text-content-centered">
             <h2 class="text-center">About Us!</h2>
             <p class="text-center"><i>Needs Designs</i></p>
             <p class="text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
               adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
+          </div> -->
+          <br />
 
           <div class="parent-content text-content-centered">
             <h2 class="text-center">Why Vision Solar</h2>
             <div class="why-vs-boxes-container">
               <div>
                 <!-- Box 1 of 3 -->
-                <a class="next-btn">
+                <a class="save-env-box">
                   <div style="cursor: pointer;" onclick="window.location='pages/why/save_the_environment.html';" class="why-boxes box-float-left">
-                    <h2>Save the environment</h2>
-                    <p>Installing solar PV panels can mean an average Irish family produces half a tonne less Co2 per year.</p>
-                    <a href="pages/why/save_the_environment.html">...learn more!</a>
+                    <h2 class="box-heading">Save the environment</h2>
+                    <span class="box-text-content"><p>Installing solar PV panels can mean an average Irish family produces half a tonne less Co2 per year.</p></span>
+                    <a class="box-learn-more" href="pages/why/save_the_environment.html">...learn more!</a>
                   </div>
                 </a>
                 <!-- Box 2 of 3 -->
-                <a class="next-btn">
+                <a class="save-money">
                   <div style="cursor: pointer;" onclick="window.location='pages/why/save_money.html';" class="why-boxes box-float-center">
-                    <h2>Save money</h2>
-                    <p>In Ireland, installing a well located 3kW system could save you €1,118 per year.</p>
-                    <a href="pages/why/save_money.html">...learn more!</a>
+                    <h2 class="box-heading">Save money</h2>
+                    <span class="box-text-content"><p>In Ireland, installing a well located 3kW system could save you €1,118 per year.</p></span>
+                    <a class="box-learn-more" href="pages/why/save_money.html">...learn more!</a>
                   </div>
                 </a>
                 <!-- Box 3 of 3 -->
                 <a class="next-btn">
                   <div style="cursor: pointer;" onclick="window.location='pages/why/energy_security.html';" class="why-boxes box-float-right">
-                    <h2>Energy Security</h2>
-                    <p>Installing a solar PV system will give you control over your own electricity, making you less reliant on the national grid. You will be able to use your own power even during power outages.</p>
-                    <a href="pages/why/energy_security.html">...learn more!</a>
+                    <h2 class="box-heading">Energy Security</h2>
+                    <span class="box-text-content"><p>Installing a solar PV system will give you control over your own electricity, making you less reliant on the national grid. You will be able to use your own power even during power outages.</p></span>
+                    <a class="box-learn-more" href="pages/why/energy_security.html">...learn more!</a>
                   </div>
                 </a>
               </div>
@@ -164,30 +165,36 @@
                 <!-- Box 1 of 3 -->
                 <a class="next-btn">
                   <div style="cursor: pointer;" onclick="window.location='pages/why/inflation_busters.html';" class="why-boxes box-float-left">
-                    <h2>Inflation Busters</h2>
-                    <p>Fight inflation by investing in money saving assets like solar panels. In Ireland, solar panels typically pay for themselves in 5-10 years. At the current European rate of 9% inflation €5000 is estimated to be worth … in 5 years time.</p>
-                    <a href="pages/why/inflation_busters.html">...learn more!</a>
+                    <h2 class="box-heading">Inflation Busters</h2>
+                    <span class="box-text-content"><p>Fight inflation by investing in money saving assets like solar panels. In Ireland, solar panels typically pay for themselves in 5-10 years. At the current European rate of 9% inflation €5000 is estimated to be worth … in 5 years time.</p></span>
+                    <a class="box-learn-more" href="pages/why/inflation_busters.html">...learn more!</a>
                   </div>
                 </a>
                 <!-- Box 2 of 3 -->
                 <a class="next-btn">
                   <div style="cursor: pointer;" onclick="window.location='pages/why/quality_service.html';" class="why-boxes box-float-center">
-                    <h2>Quality Service</h2>
-                    <p>Vision Solar is an SEAI registered installer and is one of Irelands fastest growing installers of solar PV panels. We use only the highest quality products from the worlds leading solar PV manufacturers such as Longi and Q-Cells. All of our panels come with a 25 year warranty.
+                    <h2 class="box-heading">Quality Service</h2>
+                    <span class="box-text-content"><p>Vision Solar is an SEAI registered installer and is one of Irelands fastest growing installers of solar PV panels. We use only the highest quality products from the worlds leading solar PV manufacturers such as Longi and Q-Cells. All of our panels come with a 25 year warranty.</p></span>
                     </p>
-                    <a href="pages/why/quality_service.html">...learn more!</a>
+                    <a class="box-learn-more" href="pages/why/quality_service.html">...learn more!</a>
                   </div>
                 </a>
                 <!-- Box 3 of 3 -->
                 <a class="next-btn">
                   <div style="cursor: pointer;" onclick="window.location='pages/why/grant_availability.html';" class="why-boxes box-float-right">
-                    <h2>Grant Availability</h2>
-                    <p>Government enthusiasm for solar energy is clear through the generous grants that currently exist. Grants of up to €2400 are currently available for solar PV installation.</p>
-                    <a href="pages/why/grant_availablity.html">...learn more!</a>
+                    <h2 class="box-heading">Grant Availability</h2>
+                    <span class="box-text-content"><p>Government enthusiasm for solar energy is clear through the generous grants that currently exist. Grants of up to €2400 are currently available for solar PV installation.</p></span>
+                    <a class="box-learn-more" href="pages/why/grant_availablity.html">...learn more!</a>
                   </div>
                 </a>
               </div>
             </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+            
 
 
           <!-- <div class="parent-content">
@@ -220,40 +227,25 @@
         
 
 
-          <!-- <div class="parent-content">
-            <br />
-            <h2 class="text-center child-content">CONTACT US</h2>
-            <p class="text-center"><i>Get in touch today for a quote!</i></p>
-            <div>
-              <div class="d-flex justify-content-center">
-                <i class="text-center" style="width:30px"></i> Limerick City Kiiiiiiid, Ireland<br>
-                <i class="text-center" style="width:30px"></i> Phone: +0869696969<br>
-                <i class="text-center" style="width:30px"> </i> Email: mail@mail.com<br>
-              </div>
-              <div class="d-flex justify-content-center">
-                <form action="/action_page.php" target="_blank">
-                  <div style="margin:0 -16px 8px -16px">
-                    <div class="d-flex justify-content-center">
-                      <input class="d-flex justify-content-center" type="text" placeholder="Name" required name="Name">
-                    </div>
-                    <div class="d-flex justify-content-center">
-                      <input class="d-flex justify-content-center" type="text" placeholder="Email" required name="Email">
-                    </div>
-                  </div>
-                  <div class="d-flex justify-content-center">
-                    <input class="d-flex justify-content-center" type="text" placeholder="Message" required name="Message">
-                  </div>
-                  <br />
-                  <div class="d-flex justify-content-center">
-                    <button class="d-flex justify-content-center" type="submit">SEND</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>  -->
         </div>
         </div>
         <span class="spacing"></span>
+
+
+        <div class="get-in-touch-container">
+          <div class="get-in-touch-image">
+            <img src="./images/Logo.Brand_VS-01.png" alt="vision_solar_logo" width="500" height="600">
+          </div>
+          <div class="get-in-touch-text">
+              <h1 class="get-in-touch-header">Interested?</h1>
+              <h3 class="get-in-touch-header">Get in touch <a href="/pages/contact_us.php">here!? <i class="fas fa-arrow-circle-right orange"></i></a></h3>
+          </div>
+        </div>
+        <br />
+        <br /><br /><br /><br />
+
+
+        <!-- <span class="spacing"></span> -->
         <?php include 'assets/footer.php';?>
       
     </body>
