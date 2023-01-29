@@ -77,7 +77,7 @@ try {
     // );
     $mail->SMTPDebug = False;
 
-    $mail->From = 'lukeamk@gmail.com';
+    $mail->From = 'lukekellysws@gmail.com';
     $mail->FromName = 'Mailer';
     // $mail->addAddress('lukeamk@gmail.com', 'Joe User');     // Add a recipient
     $mail->addAddress('lukekellysws@gmail.com');               // Name is optional
@@ -100,7 +100,7 @@ try {
         $panelKit = $_POST["submit"];
         
 
-        $mail->Subject = $fName . "" . $lName . "for" . $panelKit;
+        $mail->Subject = $fName . "" . $lName . "for 14 panel kit.";
         $mail->Body    = "House Type: " . $houseType . "\n\n" . "House Hours: " . $houseHours . "\n\n" . "Electricty Bill: " . $ElectricityBill . "\n\n" . "Clicked on: " . $panelKit;
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
     }

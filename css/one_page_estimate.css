@@ -77,3 +77,97 @@ button.submit-btn {
 .spacing {
   height: 300px;
 }
+
+.why-vs-boxes-container {
+  align-content: center;
+}
+
+.why-boxes {
+  /* border-radius: 25px; */
+  border: 2px solid #73AD21;
+  padding: 2.5%;
+  width: 20%;
+  height: 350px;
+}
+
+.why-boxes:hover {
+  color: white;
+  background-color: #5B9D57;
+}
+
+.why-boxes:hover .box-heading {
+  display: none;
+}
+
+.why-boxes:hover .box-text-content {
+  display: block;
+}
+
+@media only screen and (min-width: 600px) {
+  .box-float-left {
+    position: absolute;
+    left: 15%;
+  }
+
+  .box-float-center {
+    position: absolute;
+    left: 40%;
+  }
+
+  .box-float-right {
+    position: absolute;
+    right: 15%;
+  }
+  .spacing {
+    height: 400px;
+    display: block;
+  }
+  .box-spacer-y {
+    padding: 250px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .why-vs-boxes-container {
+    overflow-x: visible;
+  }
+
+  .why-boxes {
+    width: 80%;
+  }
+  
+  .box-float-left {
+    position: relative;
+    top: 20px;
+  }
+  
+  .box-float-center {
+    position: relative;
+    top: 40px;
+  }
+  
+  .box-float-right {
+    position: relative;
+    top: 60px;
+  }
+  .spacing {
+    height: 200px;
+    display: block;
+  }
+  .box-spacer-y {
+    padding: 30px;
+    display: block;
+  }
+}
+
+
+.box-text-content {
+  display: none;
+}
+
+
+.box-learn-more {
+  position: absolute;
+  bottom: 5%;
+}
