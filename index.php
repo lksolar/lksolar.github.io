@@ -135,26 +135,26 @@
               <div>
                 <!-- Box 1 of 3 -->
                 <a class="save-env-box">
-                  <div style="cursor: pointer;" onclick="window.location='pages/why/save_the_environment.html';" class="why-boxes box-float-left">
-                    <h2 class="box-heading">Save the environment</h2>
-                    <span class="box-text-content"><p>Installing solar PV panels can mean an average Irish family produces half a tonne less Co2 per year.</p></span>
-                    <a class="box-learn-more" href="pages/why/save_the_environment.html">...learn more!</a>
+                  <div style="cursor: pointer;" onclick="window.location='pages/why/save_the_environment.php';" class="why-boxes box-float-left">
+                    <h2 class="box-heading">Save the environment!</h2>
+                    <span class="box-text-content"><p>Solar PV could lower your Co2 emissions by over half a tonne each year!</p></span>
+                    <a class="box-learn-more" href="pages/why/save_the_environment.php">...learn more!</a>
                   </div>
                 </a>
                 <!-- Box 2 of 3 -->
                 <a class="save-money">
-                  <div style="cursor: pointer;" onclick="window.location='pages/why/save_money.html';" class="why-boxes box-float-center">
+                  <div style="cursor: pointer;" onclick="window.location='pages/why/save_money.php';" class="why-boxes box-float-center">
                     <h2 class="box-heading">Save money</h2>
-                    <span class="box-text-content"><p>In Ireland, installing a well located 3kW system could save you €1,118 per year.</p></span>
-                    <a class="box-learn-more" href="pages/why/save_money.html">...learn more!</a>
+                    <span class="box-text-content"><p>Installing 8 panels could save you over €1,118 each year!</p></span>
+                    <a class="box-learn-more" href="pages/why/save_money.php">...learn more!</a>
                   </div>
                 </a>
                 <!-- Box 3 of 3 -->
                 <a class="next-btn">
-                  <div style="cursor: pointer;" onclick="window.location='pages/why/energy_security.html';" class="why-boxes box-float-right">
+                  <div style="cursor: pointer;" onclick="window.location='pages/why/energy_security.php';" class="why-boxes box-float-right">
                     <h2 class="box-heading">Energy Security</h2>
-                    <span class="box-text-content"><p>Installing a solar PV system will give you control over your own electricity, making you less reliant on the national grid. You will be able to use your own power even during power outages.</p></span>
-                    <a class="box-learn-more" href="pages/why/energy_security.html">...learn more!</a>
+                    <span class="box-text-content"><p>Use stored electricity during power outages!</p></span>
+                    <a class="box-learn-more" href="pages/why/energy_security.php">...learn more!</a>
                   </div>
                 </a>
               </div>
@@ -164,27 +164,27 @@
               <div>
                 <!-- Box 1 of 3 -->
                 <a class="next-btn">
-                  <div style="cursor: pointer;" onclick="window.location='pages/why/inflation_busters.html';" class="why-boxes box-float-left">
-                    <h2 class="box-heading">Inflation Busters</h2>
-                    <span class="box-text-content"><p>Fight inflation by investing in money saving assets like solar panels. In Ireland, solar panels typically pay for themselves in 5-10 years. At the current European rate of 9% inflation €5000 is estimated to be worth … in 5 years time.</p></span>
-                    <a class="box-learn-more" href="pages/why/inflation_busters.html">...learn more!</a>
+                  <div style="cursor: pointer;" onclick="window.location='pages/why/inflation_busters.php';" class="why-boxes box-float-left">
+                    <h2 class="box-heading">Fight inflation</h2>
+                    <span class="box-text-content"><p>Fight inflation and win by investing in money saving assets like solar PV. </p></span>
+                    <a class="box-learn-more" href="pages/why/inflation_busters.php">...learn more!</a>
                   </div>
                 </a>
                 <!-- Box 2 of 3 -->
                 <a class="next-btn">
-                  <div style="cursor: pointer;" onclick="window.location='pages/why/quality_service.html';" class="why-boxes box-float-center">
-                    <h2 class="box-heading">Quality Service</h2>
-                    <span class="box-text-content"><p>Vision Solar is an SEAI registered installer and is one of Irelands fastest growing installers of solar PV panels. We use only the highest quality products from the worlds leading solar PV manufacturers such as Longi and Q-Cells. All of our panels come with a 25 year warranty.</p></span>
+                  <div style="cursor: pointer;" onclick="window.location='pages/why/quality_service.php';" class="why-boxes box-float-center">
+                    <h2 class="box-heading">Quality products and service</h2>
+                    <span class="box-text-content"><p>Vision Solar goes above and beyond SEAI requirements to give our customers the best experience.</p></span>
                     </p>
-                    <a class="box-learn-more" href="pages/why/quality_service.html">...learn more!</a>
+                    <a class="box-learn-more" href="pages/why/quality_service.php">...learn more!</a>
                   </div>
                 </a>
                 <!-- Box 3 of 3 -->
                 <a class="next-btn">
-                  <div style="cursor: pointer;" onclick="window.location='pages/why/grant_availability.html';" class="why-boxes box-float-right">
+                  <div style="cursor: pointer;" onclick="window.location='pages/why/grant_availability.php';" class="why-boxes box-float-right">
                     <h2 class="box-heading">Grant Availability</h2>
-                    <span class="box-text-content"><p>Government enthusiasm for solar energy is clear through the generous grants that currently exist. Grants of up to €2400 are currently available for solar PV installation.</p></span>
-                    <a class="box-learn-more" href="pages/why/grant_availablity.html">...learn more!</a>
+                    <span class="box-text-content"><p>Government grants of up to €2400 are available now</p></span>
+                    <a class="box-learn-more" href="pages/why/grant_availablity.php">...learn more!</a>
                   </div>
                 </a>
               </div>

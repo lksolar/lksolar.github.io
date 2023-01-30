@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/call_to_action_button.css">
 
   </head>
   <!-- Google tag (gtag.js) -->
@@ -54,7 +55,7 @@
 
   gtag('config', 'G-XMCMYLZC7L');
 </script>
-    <div id="header"></div>
+<?php include '../../assets/header.php';?>
     <div id="privacy-policy"></div>
 
     <div>
@@ -63,16 +64,24 @@
 
         <div class="parent-content">
           <div class="parent-content text-content-centered">
-            <h2 class="text-center">Quality Service!</h2>
-            <p class="text-center">
-                Vision Solar is an SEAI registered installer and is one of Irelands fastest growing installers of solar PV panels. We use only the highest quality products from the worlds leading solar PV manufacturers such as Longi and Q-Cells. All of our panels come with a 25 year warranty.</p>
+            <h2 class="text-center">Save Money!</h2>
+            <p class="text-center">As we know, the average Irish household uses around 4200kWh of electricity each year. At 43cent per kWh, this would result in an annual bill of €1,806. A well designed system of 8 panels (~3kW) would generate around 2600kWh each year. If self consumption was maximised that could result in a saving of €1,118 each year. If you produce more electricity than your home is using you can now sell electricity back to the grid. Different energy providers have different feed in tariffs with some being as high as 24c per kWh. These reasons, along with the increased efficiency of solar PV means that most solar PV systems pay for themselves within 5-10 years.</p>
+          </div>
+
+          <br />
+
+          <div class="cta_container">
+
+            <a href="../instant_quote_calculator.php">
+              <button class="cta-button-quote" type="button"><p class=cta_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
+            </a>
           </div>
 
             
         </div>
         </div>
         <span class="spacing"></span>
-        <div id="footer"></div>
+        <?php include '../../assets/footer.php';?>
       
     </body>
 </html>

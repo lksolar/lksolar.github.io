@@ -43,6 +43,8 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/table.css">
+    <link rel="stylesheet" href="/css/call_to_action_button.css">
 
   </head>
   <!-- Google tag (gtag.js) -->
@@ -54,7 +56,7 @@
 
   gtag('config', 'G-XMCMYLZC7L');
 </script>
-    <div id="header"></div>
+<?php include '../../assets/header.php';?>
     <div id="privacy-policy"></div>
 
     <div>
@@ -63,19 +65,57 @@
 
         <div class="parent-content">
           <div class="parent-content text-content-centered">
-            <h2 class="text-center">Save the Environment!</h2>
-            <p class="text-center">Saving the planet by using freely available and endless Solar energy is a no brainer.
-              Based on “standard” charging rates from the biggest provider – Electric Ireland – the average household usage in Ireland is 4200 kWh electricity. The SEAI calculates that a single kWh of electricity leads to the emission of 635 grammes of CO2. ( https://www.seai.ie/publications/Energy-Related-Emissions-in-Ireland-2016-report.pdf ) At these rates typical 20m2 PV system generating 2600 kWh over the year will typically save one and a quarter tonnes of CO2.
-              Solar, like any energy source, has a carbon footprint. But this is very small, only about fifty grammes of CO2 per kWh or 5% of the typical value for the main fossil fuels. You save money and the planet is cleaner.
-              Simple.
-              </p>
+            <h2 class="text-center">Grant Availability!</h2>
+            <p class="text-center">Government enthusiasm for solar energy is clear through the generous grants that currently exist. Only SEAI registered installers such as Vision Solar can complete grant work. Grants of up to €2400 are currently available for solar PV installation. Grants amounts are calculated as follows:</p>
+            <br /><br />
+            <table>
+              <!-- <caption></caption> -->
+              <thead>
+                <tr class="thead">
+                  <th scope="col">Panels</th>
+                  <th scope="col">Output</th>
+                  <th scope="col">Grant</th>
+                  <th scope="col">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Panels">6 panels</td>
+                  <td data-label="Output">2.22kW</td>
+                  <td data-label="Grant">€1866</td>
+                  <td data-label="Notes">(€1800 for 2kW + €66 for 0.22kW)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Panels">10 panels</td>
+                  <td data-label="Output">3.7kW</td>
+                  <td data-label="Grant">€2310</td>
+                  <td data-label="Notes">(€2100 for 3kW + €210 for 0.7kW)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Panels">14 panels</td>
+                  <td data-label="Output">5.18kW</td>
+                  <td data-label="Grant">€2400</td>
+                  <td data-label="Notes">(€2400 for 4kW, €0 for above 4kW)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <br /><br />
+
+          <div class="cta_container">
+
+            <a href="../instant_quote_calculator.php">
+              <button class="cta-button-quote" type="button"><p class=cta_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
+            </a>
           </div>
 
             
         </div>
         </div>
         <span class="spacing"></span>
-        <div id="footer"></div>
+        <?php include 'assets/footer.php';?>
       
     </body>
 </html>

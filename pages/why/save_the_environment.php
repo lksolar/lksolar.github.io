@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/call_to_action_button.css">
 
   </head>
   <!-- Google tag (gtag.js) -->
@@ -54,7 +55,7 @@
 
   gtag('config', 'G-XMCMYLZC7L');
 </script>
-    <div id="header"></div>
+<?php include '../../assets/header.php';?>
     <div id="privacy-policy"></div>
 
     <div>
@@ -63,21 +64,24 @@
 
         <div class="parent-content">
           <div class="parent-content text-content-centered">
-            <h2 class="text-center">Save Money!</h2>
-            <p class="text-center">Let’s look at the simple facts.
-              As stated in the previous section, based on “standard” charging rates from the biggest provider – Electric Ireland – the average usage of 4200 kWh electricity a year will result in an annual electricity bill of €2177 (From Oct 1st 2022) as the unit cost of electricity jumps 27% to 43.27c per kilowatt.
-              Data on the SEAI website (https://www.seai.ie/publications/FAQs_on_Solar_PV.pdf  Page 2/3) shows that "A home solar PV system in Ireland, sized at 20 sq. m (~3kW) would generate around 2,600kWh of electricity a year.”
-              That is a saving of 1,125.02 euros every year at present unit prices which most analysts expect to rise substantially over the coming years.
-              But there are several other ways to save. By installing a battery, you can store power and top it up using the cheaper overnight energy unit rate, which you can then use the following day. In periods when you are producing more energy than you need-holidays, peak summer times when there’s more daylight and you have less electrical usage, you can sell the units back to the grid.
-              In all, this means that the average solar PV system pays for itself in savings in 5-10 years.
-              Simple.</p>
+            <h2 class="text-center">Save the Environment!</h2>
+            <p class="text-center">The Sustainable Energy Authority of Ireland (SEAI) calculates that a single kWh of electricity leads to the emission of 635 grammes of Co2. The average Irish household uses around 4200kWh of electric in a year. A 10 panel system will generate ….. in a year. Installing solar PV could prevent ….. of Co2 emissions. Installing solar PV is guaranteed to help lower your Co2 emissions and save the environment.
+              </p>
           </div>
 
+        <br />
+
+        <div class="cta_container">
+
+          <a href="../instant_quote_calculator.php">
+            <button class="cta-button-quote" type="button"><p class=cta_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
+          </a>
+        </div>
             
         </div>
         </div>
         <span class="spacing"></span>
-        <div id="footer"></div>
+        <?php include '../../assets/footer.php';?>
       
     </body>
 </html>

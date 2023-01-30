@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/call_to_action_button.css">
 
   </head>
   <!-- Google tag (gtag.js) -->
@@ -54,7 +55,7 @@
 
   gtag('config', 'G-XMCMYLZC7L');
 </script>
-    <div id="header"></div>
+<?php include '../../assets/header.php';?>
     <div id="privacy-policy"></div>
 
     <div>
@@ -63,16 +64,23 @@
 
         <div class="parent-content">
           <div class="parent-content text-content-centered">
-            <h2 class="text-center">Grant Availability!</h2>
-            <p class="text-center">
-                Government enthusiasm for solar energy is clear through the generous grants that currently exist. Grants of up to €2400 are currently available for solar PV installation.</p>
+            <h2 class="text-center">Inflation Busters!</h2>
+            <p class="text-center">With inflation at 9% money sitting in the bank becomes worth less and less each day. Many people are looking for other options to save or invest their money. Stocks? Options? Crypto? It’s impossible to predict what the future holds, but, as long as the sun shines our systems will generate electricity and save you money. With an average payback time of 5-10 years a solar PV system is one of the smartest investments you can make.</p>
           </div>
 
+          <br />
+
+        <div class="cta_container">
+
+          <a href="../instant_quote_calculator.php">
+            <button class="cta-button-quote" type="button"><p class=cta_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
+          </a>
+        </div>
             
         </div>
         </div>
         <span class="spacing"></span>
-        <div id="footer"></div>
+        <?php include '../../assets/footer.php';?>
       
     </body>
 </html>

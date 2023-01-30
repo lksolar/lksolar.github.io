@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/call_to_action_button.css">
 
   </head>
   <!-- Google tag (gtag.js) -->
@@ -54,7 +55,7 @@
 
   gtag('config', 'G-XMCMYLZC7L');
 </script>
-    <div id="header"></div>
+<?php include '../../assets/header.php';?>
     <div id="privacy-policy"></div>
 
     <div>
@@ -63,16 +64,26 @@
 
         <div class="parent-content">
           <div class="parent-content text-content-centered">
-            <h2 class="text-center">Inflation Busters!</h2>
-            <p class="text-center">
-                Fight inflation by investing in money saving assets like solar panels. In Ireland, solar panels typically pay for themselves in 5-10 years. At the current European rate of 9% inflation €5000 is estimated to be worth … in 5 years time.</p>
+            <h2 class="text-center">Quality Service!</h2>
+            <p class="text-center">Vision Solar is an SEAI registered installer. All of our installers hold the necessary qualifications to properly design and install the right solar PV system for you. </p>
+            <p class="text-center">Standard warranties in the solar industry are 25 years for panels with a 2 year workmanship warranty. Vision Solar installers are all REC certified solar professionals which allows us to give a 25 year workmanship warranty on our work.</p>
+            <p class="text-center">We source the highest quality products from market leaders such as Huawei and REC. Huawei is well known as the producer of the highest quality solar PV inverters and batteries. Huawei inverters provide the smoothest experience for the end user with a fully integrated smart phone app for monitoring the performance of your solar PV system. Our panels come from REC. REC are a Norwegian company who’s panels excel in low light conditions found in countries like Norway and Ireland. This helps our customers systems to generate more energy on cloudy days, of which Ireland sees the most of in Europe.</p>
           </div>
+          
+          <br />
+
+        <div class="cta_container">
+
+          <a href="../instant_quote_calculator.php">
+            <button class="cta-button-quote" type="button"><p class=cta_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
+          </a>
+        </div>
 
             
         </div>
         </div>
         <span class="spacing"></span>
-        <div id="footer"></div>
+        <?php include '../../assets/footer.php';?>
       
     </body>
 </html>

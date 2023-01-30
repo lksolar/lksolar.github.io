@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/call_to_action_button.css">
 
   </head>
   <!-- Google tag (gtag.js) -->
@@ -54,7 +55,7 @@
 
   gtag('config', 'G-XMCMYLZC7L');
 </script>
-    <div id="header"></div>
+<?php include '../../assets/header.php';?>
     <div id="privacy-policy"></div>
 
     <div>
@@ -64,20 +65,23 @@
         <div class="parent-content">
           <div class="parent-content text-content-centered">
             <h2 class="text-center">Energy Security!</h2>
-            <p class="text-center">If you look at the bottom right corner on the back of your electricity Bill, you will see a breakdown of the ‘fuel mix’ in electricity generation in Ireland.
-              Your electricity is generated largely through gas or renewables. The proportions can fluctuate depending largely on weather conditions. Eirgrid’s official report on the breakdown of power sources shows that in 2021 renewables accounted for 43% of our electricity up from 39% in 2020. This figure is due to increase even further over 2022 due to surging gas prices which until now have accounted for over 50% of electricity production. Wind turbines delivered the bulk of our renewables and wind generation is set to increase even further into the future as we try to reach our Green targets. The problem with wind is that no energy is produced in calm weather and the turbines are triggered to shut down when the wind speed goes over 88 kmph (55 mph). Gas, while efficient and reliable, is increasingly expensive and prone to shortages during periods of economic and political unrest.
-              The good news is that the sun isn’t going away for another 4.5 billion years. According to the SEAI website “typically 1 sq. m of panels will generate ~150W of power on a clear sunny day (that’s enough to power a laptop computer). A home solar PV system in Ireland, sized at 20 sq. m (~3kW) would generate around 2,600kWh of electricity a year.”  https://www.seai.ie/publications/FAQs_on_Solar_PV.pdf
-              Average household electricity usage is 4200 kWh
-              Dr Muireann Lynch, senior research officer with the ESRI, issued the starkest of warnings recently to RTE’s Primetime “the likelihood of power shortages is the highest it's been for a while".
-              By using a battery you can store your solar energy as well as topping up with cheap and more available night electricity to secure your power source and guarantee yourself power during any brown outs or blackouts.
-              Simple.</p>
+            <p class="text-center">Installing a battery along with your solar PV system will allow you to store energy you generate during the day to use at a time of your choice. In the event of power outages, users who have battery systems installed will be able to keep their home or business running. This is invaluable for businesses and those working from home. </p>
           </div>
+
+          <br />
+
+        <div class="cta_container">
+
+          <a href="../instant_quote_calculator.php">
+            <button class="cta-button-quote" type="button"><p class=cta_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
+          </a>
+        </div>
 
             
         </div>
         </div>
         <span class="spacing"></span>
-        <div id="footer"></div>
+        <?php include '../../assets/footer.php';?>
       
     </body>
 </html>
