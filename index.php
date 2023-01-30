@@ -80,7 +80,7 @@
                 <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 1</p></span>
                 <span class="info-dot dot-position-1-2 myDIV"></span>
                 <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 1-2</p></span>
-                <img src="/images/solar_1.png" alt="Solar 1" style="width:100%;">
+                <img src="/images/istock_1.jpg" alt="Solar 1" style="width:100%;">
               </div>
               <!-- Second image, dots, text and buttons -->
               <div class="item">
@@ -88,7 +88,7 @@
                 <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2</p></span>
                 <span class="info-dot dot-position-2-2 myDIV"></span>
                 <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2-2</p></span>
-                <img src="/images/solar_2.png" alt="Solar 2" style="width:100%;">
+                <img src="/images/istock_2.jpg" alt="Solar 2" style="width:100%;">
               </div>
               <!-- Third image, dots, text and buttons -->
               <div class="item">
@@ -96,7 +96,7 @@
                 <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3</p></span>
                 <span class="info-dot dot-position-3-2 myDIV"></span>
                 <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3-2</p></span>
-                <img src="/images/solar_3.png" alt="Solar 3" style="width:100%;">
+                <img src="/images/istock_3.jpg" alt="Solar 3" style="width:100%;">
               </div>
               <a href="/pages/instant_quote_calculator.php">
                 <button class="carousel-button-quote" type="button"><p class=quote_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
