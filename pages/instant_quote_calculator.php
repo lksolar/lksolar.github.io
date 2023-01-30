@@ -192,53 +192,23 @@
             <h1>Results</h1>
             <p>Take a look at the kits our estimate calculator suggested for your dwelling...</p>
         </div>
+        
         <div class="why-vs-boxes-container">
-              <div>
-                <!-- Box 1 of 3 -->
-                <a class="save-env-box" id="6-panels">
-                  <button  style="cursor: pointer;" onclick="window.location='solar-kits/6_panels.php';" class="why-boxes box-float-left" type="submit">
-                    <h2 class="box-heading">6 Panels</h2>
-                    <span class="box-text-content"><p>6 Panels Yay! </p></span>
-                    <a class="box-learn-more" href="">...learn more!</a>
-</button>
-                </a>
-                <!-- Box 2 of 3 -->
-                <a class="save-money" id="14-panels" value="Learn More About our 14 Panel kit">
-                  <button style="cursor: pointer;" onclick="window.location='solar-kits/14_panels.php';" class="why-boxes box-float-center" type="submit" name="submit" value="Learn More about our 14 Panel Kit">
-                    <h2 class="box-heading">14 Panels</h2>
-                    <span class="box-text-content"><p>14 Panels Yay! :) </p></span>
-                    <a class="box-learn-more" href="pages/why/save_money.html">...learn more!</a>
-</button>
-                </a>
-                <!-- Box 3 of 3 -->
-                <a class="next-btn" id="16-panels">
-                  <div style="cursor: pointer;" onclick="window.location='solar-kits/16_panels.php';" class="why-boxes box-float-right">
-                    <h2 class="box-heading">16 Panels + Battery</h2>
-                    <span class="box-text-content"><p>16 Panels, so much power!</p></span>
-                    <a class="box-learn-more" href="pages/why/energy_security.html">...learn more!</a>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <span class="box-spacer-y"></span>
-        <div>
+        <button class="why-boxes box-float-left" type="submit" name="submit" value="Learn More about our 6 Panel Kit">
           <h2>6 Panel kit</h2>
           <p>€6,300</p>
           <a href="solar-kits/6_panels.html">Learn More...</a>
-          <input type="submit" name="submit" value="Learn More about our 6 Panel Kit">
-        </div>
-        <div>
+        </button> 
+        <button class="why-boxes box-float-center" type="submit" name="submit" value="Learn More About our 14 Panel kit">
           <h2>14 Panel kit</h2>
           <p>€8,999</p>
           <a href="solar-kits/14_panels.html">Learn More...</a>
-          <button type="submit" name="submit" value="Learn More About our 14 Panel kit">
-        </div>
-        <div>
+        </button>
+        <button class="why-boxes box-float-right" type="submit" name="submit" value="Learn More about our 16 Panel kit options">
           <h2>16 Panel kit + Battery</h2>
           <p>€15,799</p>
           <a href="solar-kits/16_panels.html">Learn More...</a>
-          <button type="submit" name="submit" value="Learn More about our 16 Panel kit options">
-        </div>
+        </button>
     </div>
 
         </div>
