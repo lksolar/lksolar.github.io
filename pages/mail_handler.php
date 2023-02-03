@@ -10,6 +10,7 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 require '../vendor/autoload.php';
+include '../../.secrets/secrets.php';
 
 
 if(isset($_POST['submit'])){ 
