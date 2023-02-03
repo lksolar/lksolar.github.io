@@ -164,6 +164,10 @@
   height: 150px; 
 } 
 
+.carousel-inner {
+  height: 70vh;
+}
+
 .carousel-button-quote {
   /* background-color: red; Green */
   border: none;
