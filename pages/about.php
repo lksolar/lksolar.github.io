@@ -41,49 +41,27 @@ body {font-family: "Lato", sans-serif}
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
   
-  <div style="max-width:800px">
-    <h2 class="text-center">Pricing</h2>
-    <p class="text-center"><i>Free Elecrticity</i></p>
-    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <div style="max-width:80%;position:relative;left:10%;">
+    <h2 class="text-center">About Us</h2>
+    <p class="text-center">Vision Solar is a solar PV installation company based in Limerick. Vision Solar was founded in
+2022 to help save the environment and to help households save on their energy bills amidst the
+cost of living crisis and is now one of the fastest growing solar PV companies in the countryA.
+We specialise in the design and installation of solar PV systems across Ireland, with the majority
+of our work being carried out in Limerick and the neighbouring counties. Vision Solar is a
+partner of REC, a top of the range solar panel manufacturer based in Norway. REC panels
+perform exceptionally well in low light conditions, such as those experienced in Ireland and
+Norway. We have also recently partnered with SKE, a key supplier of Huawei solar PV
+products. Huawei batteries and inverters are the best on the market. The inverters have very
+high efficiency (98%) and are easily compatible with the award winning LUNA batteries. They
+are both compatible with the Fusion Solar app which allows end users to have full control over
+their systems.</p>
 
   </div>
 
-
-  <div style="max-width:800px">
-    <h2 class="text-center">CONTACT US</h2>
-    <p class="text-center"><i>Get in touch today for a quote!</i></p>
-    <div>
-      <div class="d-flex justify-content-center">
-        <i class="text-center" style="width:30px"></i> Limerick City Kiiiiiiid, Ireland<br>
-        <i class="text-center" style="width:30px"></i> Phone: +0869696969<br>
-        <i class="text-center" style="width:30px"> </i> Email: mail@mail.com<br>
-      </div>
-      <div class="d-flex justify-content-center">
-        <form action="/action_page.php" target="_blank">
-          <div style="margin:0 -16px 8px -16px">
-            <div class="d-flex justify-content-center">
-              <input class="d-flex justify-content-center" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="d-flex justify-content-center">
-              <input class="d-flex justify-content-center" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <div class="d-flex justify-content-center">
-            <input class="d-flex justify-content-center" type="text" placeholder="Message" required name="Message">
-          </div>
-          <br />
-          <div class="d-flex justify-content-center">
-          <button class="d-flex justify-content-center" type="submit">SEND</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
   
 </div>
-<div id="footer"></div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<?php include '../assets/footer.php';?>
 
 </body>
 </html>

@@ -11,31 +11,10 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 require '../vendor/autoload.php';
 
+//Create an instance; passing `true` enables exceptions
+// $mail = new PHPMailer(true);
+// $mail = new PHPMailer();
 
-if(isset($_POST['submit'])){ 
-    $panelKit = $_POST["submit"];
-    if($panelKit == "Learn More about our 6 Panel Kit"){
-        header("Location: /pages/solar-kits/6_panels.php");
-        send_email("6 Panel Kit");
-        die();
-    }
-    if($panelKit == "Learn More About our 14 Panel kit"){
-        header("Location: /pages/solar-kits/14_panels.php");
-        send_email("14 Panel Kit");
-        die();
-    }
-    if($panelKit == "Learn More about our 16 Panel kit options"){
-        header("Location: /pages/solar-kits/16_panels.php");
-        send_email("16 Panel Kit");
-        die();
-    }
-} else {
-    header("Location: /pages/solar-kits/6_panels.php");
-    die();
-}
-
-
-function send_email($panel_kit) {
 try {
     $mail = new PHPMailer();
 
@@ -56,7 +35,7 @@ try {
     $mail->SMTPDebug = True;
 
     // $mail->From = 'lukeamk@gmail.com';
-    $mail->FromName = 'Quote form!';
+    $mail->FromName = 'Contact Us';
     // $mail->addAddress('lukeamk@gmail.com', 'Joe User');     // Add a recipient
     $mail->addAddress('lukekellysws@gmail.com');               // Name is optional
     $mail->addAddress('info@visionsolar.ie');
@@ -72,20 +51,14 @@ try {
 
     if(isset($_POST['submit'])){                         // Set email format to HTML
         
-        $houseType = $_POST["house-type"];
-        $houseHours = $_POST["house-hours"];
-        $ElectricityBill = $_POST["elec-bill"];
-        $fName = $_POST["form-name"];
-        $address = $_POST["form-address"];
-        $eircode = $_POST["form-eircode"];
+        $fName = $_POST["fname"];
         $email = $_POST["form-email"];
-        $number = $_POST["form-phone"];
-        $panelKit = $_POST["submit"];
-        $mail->FromName = 'Quote form!' . $fname . " " . $email;
+        $message = $_POST["form-message"];
+        // $panelKit = $_POST["submit"];
         
 
-        $mail->Subject = $fName . " for " . $panel_kit;
-        $mail->Body    = "House Type: " . $houseType . "\r\n<br />" . "House Hours: " . $houseHours . "\n\r<br />" . "Electricty Bill: " . $ElectricityBill . "\r\n<br />" . "Address: " . $address . "\r\n<br />" . "Eircode: " . $eircode . "\r\n<br />" . "Email: " . $email . "\r\n<br />" . "Phone Number: " . $number . "\r\n<br />" . "Clicked on: " . $panelKit;
+        $mail->Subject = $fName;
+        $mail->Body    = "Email: " . $email . "\r\n<br />" . "Message: " . $message;
     }
     $mail->send();
     // if($panelKit == "Learn More about our 6 Panel Kit"){
@@ -104,8 +77,6 @@ try {
 
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}{$e}";
-}
-
 }
 
 

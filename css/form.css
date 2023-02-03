@@ -105,3 +105,8 @@ option{
         font-size: 8pt;
     }
 }
+
+.send-button {
+    width: 100%;
+    position: relative;
+}

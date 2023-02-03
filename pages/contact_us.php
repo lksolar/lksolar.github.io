@@ -31,6 +31,7 @@
     <script src="javascript/slideshow.js"></script>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/estimate_1.css">
+    <link rel="stylesheet" href="/css/form.css">
 
   </head>
   <body>
@@ -42,11 +43,34 @@
     <div>
         <div class="estimate-heading">
             <h1>Contact Us</h1>
-            <p>Under Contruction. Please come back soon :) </p>
-            <P>In the mean time, email us here...</P>
+            <p>Feel free to contact us using the boxes below, or email us at:</P>
             <a href="mailto:admin@visionsolar.ie">admin@visionsolar.ie</a>
         </div>
     </div>
+    <form action="contact_us_mail_handler.php" method="post">
+    <div class="form-bg">
+      <br />
+      <div class="form">
+          <input placeholder="Name" maxlength="50" id="fname" name="fname" type="text" required>
+          <br />
+          <input placeholder="E-mail" maxlength="100" id="email" name="form-email" type="text" required>
+          <br />
+          <input placeholder="Message" maxlength="500" id="message" name="form-message" type="text" required>
+          
+          <!-- <label for="form-auth">
+              <input id="form-auth" type="checkbox">
+              <div class="box"></div>
+              <sup>
+                  I agree to give my information to be used to contact me.
+              </sup>
+          </label> -->
+      </div>
+      <br />
+      <button type="submit" name="submit" class="send-button">Send</button>
+      <br /><br />
+      </div>
+      
+    </form>
     <span class="spacing"></span>
     <div id="footer"></div>
 

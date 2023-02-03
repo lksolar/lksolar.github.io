@@ -187,13 +187,16 @@
             <input type="button" class="next-btn" value="Next"> -->
             <div class="form-bg">
               <br />
-              <br />
               <div class="form">
-                  <input placeholder="Name" maxlength="50" id="fname" name="fname" type="text">
-                  <input placeholder="Address" maxlength="150" name="form-city" type="text">
-                  <input placeholder="Eircode" maxlength="20" name="form-name" type="text">
-                  <input placeholder="E-mail" maxlength="100" name="form-email" type="text">
-                  <input placeholder="Phone Number" maxlength="50" name="form-phone" type="text">
+                  <input placeholder="Name" maxlength="50" id="fname" name="form-name" type="text" required>
+                  <br />
+                  <input placeholder="Address" maxlength="150" id="address" name="form-address" type="text" required>
+                  <br />
+                  <input placeholder="Eircode" maxlength="20" id="eircode" name="form-eircode" type="text" required>
+                  <br />
+                  <input placeholder="E-mail" maxlength="100" id="email" name="form-email" type="text" required>
+                  <br />
+                  <input placeholder="Phone Number" maxlength="50" id="number" name="form-phone" type="text" required>
                   
                   <!-- <label for="form-auth">
                       <input id="form-auth" type="checkbox">
@@ -203,9 +206,10 @@
                       </sup>
                   </label> -->
               </div>
-
-
+              <br />
               </div>
+              <br />
+              <!-- <button id="check">Check</button> -->
               <input type="button" class="next-btn" value="Next">
         </div>
 
