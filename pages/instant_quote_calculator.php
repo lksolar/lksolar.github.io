@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/one_page_estimate.css">
     <link rel="stylesheet" href="/css/estimate_2.css">
+    <link rel="stylesheet" href="/css/form.css">
 
   </head>
   <body>
@@ -179,11 +180,33 @@
             <div class="estimate-heading">
                 <p>Nearly there! We just need a few details to complete your calculation!</p>
             </div>
-            <label for="fname">First name:</label><br>
+            <!-- <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" value="John"><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname" value="Doe"><br><br>
-            <input type="button" class="next-btn" value="Next">
+            <input type="button" class="next-btn" value="Next"> -->
+            <div class="form-bg">
+              <br />
+              <br />
+              <div class="form">
+                  <input placeholder="Name" maxlength="50" id="fname" name="fname" type="text">
+                  <input placeholder="Address" maxlength="150" name="form-city" type="text">
+                  <input placeholder="Eircode" maxlength="20" name="form-name" type="text">
+                  <input placeholder="E-mail" maxlength="100" name="form-email" type="text">
+                  <input placeholder="Phone Number" maxlength="50" name="form-phone" type="text">
+                  
+                  <!-- <label for="form-auth">
+                      <input id="form-auth" type="checkbox">
+                      <div class="box"></div>
+                      <sup>
+                          I agree to give my information to be used to contact me.
+                      </sup>
+                  </label> -->
+              </div>
+
+
+              </div>
+              <input type="button" class="next-btn" value="Next">
         </div>
 
         <div class="step step-5">
@@ -197,17 +220,17 @@
         <button class="why-boxes box-float-left" type="submit" name="submit" value="Learn More about our 6 Panel Kit">
           <h2>6 Panel kit</h2>
           <p>€6,300</p>
-          <a href="solar-kits/6_panels.html">Learn More...</a>
+          <a href="solar-kits/6_panels.php">Learn More...</a>
         </button> 
         <button class="why-boxes box-float-center" type="submit" name="submit" value="Learn More About our 14 Panel kit">
           <h2>14 Panel kit</h2>
           <p>€8,999</p>
-          <a href="solar-kits/14_panels.html">Learn More...</a>
+          <a href="solar-kits/14_panels.php">Learn More...</a>
         </button>
         <button class="why-boxes box-float-right" type="submit" name="submit" value="Learn More about our 16 Panel kit options">
           <h2>16 Panel kit + Battery</h2>
           <p>€15,799</p>
-          <a href="solar-kits/16_panels.html">Learn More...</a>
+          <a href="solar-kits/16_panels.php">Learn More...</a>
         </button>
     </div>
 
