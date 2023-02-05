@@ -61,6 +61,8 @@ try {
         $mail->Subject = $fName;
         $mail->Body    = "Email: " . $email . "\r\n<br />" . "Message: " . $message;
     }
+    
+    header("Location: /pages/contact_us.php");
     $mail->send();
     // if($panelKit == "Learn More about our 6 Panel Kit"){
     //     header("Location: /pages/solar-kits/6_panels.php");
@@ -74,11 +76,12 @@ try {
     //     header("Location: /pages/solar-kits/16_panels.php");
     //     die();
     // }
-    print("function end");
+    
 
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}{$e}";
 }
 
+die();
 
 ?>
