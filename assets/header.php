@@ -19,7 +19,7 @@
     <i class="fas fa-bars"></i>
     </label>
     
-    <div class="solar-logo"><img src="../../images/Logo.Brand_VS-02.png" alt="Vision Solar" id="vision-solar-logo"></div>
+    <div class="solar-logo"><a href="../../../index.php"><img src="../../images/Logo.Brand_VS-02.png" alt="Vision Solar" id="vision-solar-logo"></a></div>    
     
     <nav class="header__menu__nav">
         <ul class="nav__list">
