@@ -1,0 +1,40 @@
+
+.banner {
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 300px;
+    height: 25px;
+    font-size: 30px;
+    display: none;
+  }
+
+  .sub-text {
+    color: black;
+  }
+
+  .why-boxes:hover .banner {
+    display: block;
+  }
+  
+  .left-triangle, .right-triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+  
+  .left-triangle {
+    border-top: 25px solid black;
+    border-left: 25px solid transparent;
+    margin-top: 14px;
+  }
+  
+  .right-triangle {
+    border-top: 25px solid black;
+    border-right: 25px solid transparent;
+    margin-top: 14px;
+    margin-left: 50px;
+  }

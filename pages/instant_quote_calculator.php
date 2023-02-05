@@ -43,7 +43,7 @@
                 <input type="radio" id="semi" name="house-type" value="semi" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/house.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Semi-Detached</span>
@@ -56,7 +56,7 @@
                 <input type="radio" id="detached" name="house-type" value="detached" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/house.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Detached</span>
@@ -69,7 +69,7 @@
                 <input type="radio" id="terrace" name="house-type" value="terrace" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/house.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Terrace</span>
@@ -90,7 +90,7 @@
                 <input type="radio" id="morning" name="house-hours" value="morning" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/clock.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Morning</span>
@@ -103,7 +103,7 @@
                 <input type="radio" id="afternoon" name="house-hours" value="afternoon" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/clock.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Afternoon</span>
@@ -116,7 +116,7 @@
                 <input type="radio" id="evening" name="house-hours" value="evening" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/clock.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Evening</span>
@@ -129,7 +129,7 @@
                 <input type="radio" id="all-day" name="house-hours" value="all-day" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/clock.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>All Day</span>
@@ -150,7 +150,7 @@
                 <input type="radio" id="<200" name="elec-bill" value="<200" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/electric_bolt.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>200</span>
@@ -163,7 +163,7 @@
                 <input type="radio" id="200-300" name="elec-bill" value="200-300" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/electric_bolt.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>€200-€300</span>
@@ -176,7 +176,7 @@
                 <input type="radio" id="300-400" name="elec-bill" value="300-400" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/electric_bolt.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>€300-€400</span>
@@ -189,7 +189,7 @@
                 <input type="radio" id="400+" name="elec-bill" value="400+" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                    src="../icons/electric_bolt.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>€400+</span>
@@ -213,7 +213,7 @@
           <div class="form-bg">
             <br />
             <div class="form">
-              <input placeholder="Name" maxlength="50" id="fname" name="form-name" type="text" required>
+              <input placeholder="Name" maxlength="50" id="name" name="form-name" type="text" required>
               <br />
               <input placeholder="Address" maxlength="150" id="address" name="form-address" type="text" required>
               <br />
@@ -234,11 +234,13 @@
             <br />
           </div>
           <br />
-          <!-- <button id="check">Check</button> -->
-          <input type="button" class="next-btn" value="Next">
+          <button class="submit_button" type="submit" name="submit"
+                value="submit">
+                <h2>Submit</h2>
+              </button>
         </div>
 
-        <div class="step step-5">
+        <!-- <div class="step step-5">
           <div>
             <div class="estimate-heading">
               <h1>Results</h1>
@@ -266,7 +268,7 @@
               </button>
             </div>
 
-          </div>
+          </div> -->
 
       </form>
     </div>

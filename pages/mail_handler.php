@@ -1,6 +1,4 @@
 
-
-
 <?php
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
@@ -30,6 +28,11 @@ if(isset($_POST['submit'])){
         send_email("16 Panel Kit");
         die();
     }
+    if ($panelKit == "submit") {
+        header("Location: /pages/results.php");
+        send_email("");
+        die();
+    }
 } else {
     header("Location: /pages/solar-kits/6_panels.php");
     die();
@@ -45,7 +48,7 @@ try {
     $mail->Port = 465;
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'lukekellysws@gmail.com';                 // SMTP username
-    $mail->Password = $password;                           // SMTP password
+    $mail->Password = 'quejnvfglroskwlh';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl' also accepted
     // $mail->SMTPOptions = array(
     //     'ssl' => array(
@@ -73,20 +76,45 @@ try {
 
     if(isset($_POST['submit'])){                         // Set email format to HTML
         
-        $houseType = $_POST["house-type"];
-        $houseHours = $_POST["house-hours"];
-        $ElectricityBill = $_POST["elec-bill"];
-        $fName = $_POST["form-name"];
-        $address = $_POST["form-address"];
-        $eircode = $_POST["form-eircode"];
-        $email = $_POST["form-email"];
-        $number = $_POST["form-phone"];
+        // $houseType = $_POST["house-type"];
+        // $houseHours = $_POST["house-hours"];
+        // $ElectricityBill = $_POST["elec-bill"];
+        // $name = $_POST["form-name"];
+        // $address = $_POST["form-address"];
+        // $eircode = $_POST["form-eircode"];
+        // $email = $_POST["form-email"];
+        // $number = $_POST["form-phone"];
         $panelKit = $_POST["submit"];
-        $mail->FromName = 'Quote form!' . $fname . " " . $email;
+
+        $mail->FromName = "Quote form! " . $name . " " . $email;
+
+        // $_SESSION["name"] = $name;
         
 
-        $mail->Subject = $fName . " for " . $panel_kit;
-        $mail->Body    = "House Type: " . $houseType . "\r\n<br />" . "House Hours: " . $houseHours . "\n\r<br />" . "Electricty Bill: " . $ElectricityBill . "\r\n<br />" . "Address: " . $address . "\r\n<br />" . "Eircode: " . $eircode . "\r\n<br />" . "Email: " . $email . "\r\n<br />" . "Phone Number: " . $number . "\r\n<br />" . "Clicked on: " . $panelKit;
+        // $mail->Subject = $name . ": " . $email;
+        // $mail->Body    = "House Type: " . $houseType . "\r\n<br />" . "House Hours: " . $houseHours . "\n\r<br />" . "Electricty Bill: " . $ElectricityBill . "\r\n<br />" . "Address: " . $address . "\r\n<br />" . "Eircode: " . $eircode . "\r\n<br />" . "Email: " . $email . "\r\n<br />" . "Phone Number: " . $number;
+
+        if ($panel_kit == "") {
+            $houseType = $_POST["house-type"];
+            $houseHours = $_POST["house-hours"];
+            $ElectricityBill = $_POST["elec-bill"];
+            $name = $_POST["form-name"];
+            $address = $_POST["form-address"];
+            $eircode = $_POST["form-eircode"];
+            $email = $_POST["form-email"];
+            $number = $_POST["form-phone"];
+            setcookie("name", $name, time() + (21600), "/");
+            setcookie("email", $email, time() + (21600), "/");
+            
+            $mail->Subject = $name . ": " . $email;
+            $mail->Body    = "House Type: " . $houseType . "\r\n<br />" . "House Hours: " . $houseHours . "\n\r<br />" . "Electricty Bill: " . $ElectricityBill . "\r\n<br />" . "Address: " . $address . "\r\n<br />" . "Eircode: " . $eircode . "\r\n<br />" . "Email: " . $email . "\r\n<br />" . "Phone Number: " . $number;
+        } else {
+            $name1 = $_COOKIE["name"];
+            $email1 = $_COOKIE["email"];
+            $mail->Subject = $name1 . ": " . $email1;
+            $mail->Body    = "Panel Kit: " . $panel_kit;
+        }
+
     }
     $mail->send();
     // if($panelKit == "Learn More about our 6 Panel Kit"){

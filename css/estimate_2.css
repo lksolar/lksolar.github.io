@@ -232,6 +232,13 @@ body {
 }
 
 .image {
-    opacity: 50%;
+    opacity: 30%;
     position: absolute;
+}
+
+.submit_button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #73AD21;
 }
