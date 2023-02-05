@@ -38,3 +38,13 @@
     margin-top: 14px;
     margin-left: 50px;
   }
+
+  @media screen and (max-width: 600px) {
+    .spacing{
+      height: 900px;
+    }
+
+    .banner {
+      display: block;
+    }
+  }

@@ -86,7 +86,7 @@ try {
         // $number = $_POST["form-phone"];
         $panelKit = $_POST["submit"];
 
-        $mail->FromName = "Quote form! " . $name . " " . $email;
+        // $mail->FromName = "Quote form! " . $name . " " . $email;
 
         // $_SESSION["name"] = $name;
         
@@ -103,6 +103,7 @@ try {
             $eircode = $_POST["form-eircode"];
             $email = $_POST["form-email"];
             $number = $_POST["form-phone"];
+            $mail->FromName = "Quote form! " . $name . " " . $email;
             setcookie("name", $name, time() + (21600), "/");
             setcookie("email", $email, time() + (21600), "/");
             
@@ -111,6 +112,7 @@ try {
         } else {
             $name1 = $_COOKIE["name"];
             $email1 = $_COOKIE["email"];
+            $mail->FromName = "Quote form! " . $name1 . " " . $email1;
             $mail->Subject = $name1 . ": " . $email1;
             $mail->Body    = "Panel Kit: " . $panel_kit;
         }
