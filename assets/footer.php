@@ -13,9 +13,9 @@
 
 			<div class="footer-right">
 
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="https://www.facebook.com/profile.php?id=100085796385099" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://instagram.com/visionsolar.ie?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a>
+				<!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
 
 			</div>
 
@@ -25,7 +25,7 @@
 					<a class="link-1" href="mailto:admin@visionsolar.ie"><i class="fa fa-envelope"></i>  info@visionsolar.ie</a>
 				</p>
         <p class="footer-links">
-					<a class="link-1" href="mailto:admin@visionsolar.ie"><i class="fa fa-phone"></i>  +353 852667715</a>
+					<a class="link-1" href="tel:+353 852667715"><i class="fa fa-phone"></i>  +353 852667715</a>
 				</p>
 			</div>
 
