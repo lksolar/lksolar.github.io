@@ -8,7 +8,6 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 require '../vendor/autoload.php';
-include '../.secrets/secrets.php';
 
 
 if(isset($_POST['submit'])){ 
@@ -40,6 +39,7 @@ if(isset($_POST['submit'])){
 
 
 function send_email($panel_kit) {
+include '../.secrets/secrets.php';
 try {
     $mail = new PHPMailer();
 
@@ -50,14 +50,8 @@ try {
     $mail->Username = 'lukekellysws@gmail.com';                 // SMTP username
     $mail->Password = $password;                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl' also accepted
-    // $mail->SMTPOptions = array(
-    //     'ssl' => array(
-    //         'verify_peer' => false,
-    //         'verify_peer_name' => false,
-    //         'allow_self_signed' => true
-    //     )
-    // );
-    $mail->SMTPDebug = True;
+
+    $mail->SMTPDebug = False;
 
     // $mail->From = 'lukeamk@gmail.com';
     $mail->FromName = 'Quote form!';
