@@ -1,6 +1,5 @@
 
 .cta-button-quote {
-    /* background-color: red; Green */
     border: none;
     color: white;
     text-align: center;
@@ -12,7 +11,7 @@
     height: 97px;
     border-radius: 20px;
     position: absolute;
-    right: 20%;
+    right: 10%;
     background: #5B9D57 0% 0% no-repeat padding-box;
     opacity: 1;
   }
@@ -25,4 +24,16 @@
 
   .cta-container {
     height: 50vh;
+  }
+
+  @media screen and (max-width: 600px) {
+    .cta-button-quote {
+      width: 250px;
+      height: 100px;
+    }
+
+    .cta_button_text {
+      margin: 10px;
+    } 
+  
   }
