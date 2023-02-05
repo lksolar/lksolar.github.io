@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
     }
     if($panelKit == "Learn More About our 14 Panel kit"){
         header("Location: /pages/solar-kits/14_panels.php");
-        send_email("14 Panel Kit");
+        send_email("12 Panel Kit");
         die();
     }
     if($panelKit == "Learn More about our 16 Panel kit options"){
@@ -48,7 +48,7 @@ try {
     $mail->Port = 465;
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'lukekellysws@gmail.com';                 // SMTP username
-    $mail->Password = 'quejnvfglroskwlh';                           // SMTP password
+    $mail->Password = $password;                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable encryption, 'ssl' also accepted
     // $mail->SMTPOptions = array(
     //     'ssl' => array(
