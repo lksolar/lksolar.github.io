@@ -168,6 +168,12 @@
   height: 70vh;
 }
 
+@media (max-aspect-ratio: 3/4) {
+  .carousel-inner {
+    height: 250px;
+  }
+}
+
 .carousel-button-quote {
   /* background-color: red; Green */
   border: none;
@@ -189,8 +195,38 @@
 
 .quote_button_text {
   font-size: xx-large;
-color: #FFFFFF;
-opacity: 1;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.reduced_quote_button_text {
+  display: none;
+}
+
+@media (max-aspect-ratio: 3/4) {
+  .carousel-button-quote {
+    height: 25px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+  }
+
+  .reduced_quote_button_text {
+    display: block;
+    font-size: medium;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  .quote_button_text {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
 }
 
 .carousel-button-other {
