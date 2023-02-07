@@ -100,7 +100,7 @@
                 <img src="/images/istock_3.jpg" alt="Solar 3" style="width:100%;">
               </div> -->
               <a href="/pages/instant_quote_calculator.php">
-                <button class="carousel-button-quote" type="button"><p class=quote_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p><p class=reduced_quote_button_text>Get a Quote!</p></button>
+                <button onclick="ga('send', 'event', 'type_here_your_category_event', 'type_here_your_event_name');" class="carousel-button-quote" type="button"><p class=quote_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p><p class=reduced_quote_button_text>Get a Quote!</p></button>
               </a>
               <!-- <a href="/pages/grant_calculator.html">
                 <button class="carousel-button-other" type="button">Grant Calculator!</button>
