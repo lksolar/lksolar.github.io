@@ -33,7 +33,7 @@
   <section>
     <div>
       <form action="mail_handler.php" method="post">
-      <div>
+        <div>
           <div>
             <div class="estimate-heading">
               <br />
@@ -47,7 +47,7 @@
                 <h2>6 Panel System</h2>
                 <p>From €7,100</p>
                 <div class="banner">
-                    <h6 class="sub-text">Grant of €1,857 available</h6>
+                  <h6 class="sub-text">Grant of €1,857 available</h6>
                 </div>
               </button>
               <button class="why-boxes box-float-center" type="submit" name="submit"
@@ -55,7 +55,7 @@
                 <h2>12 Panel System</h2>
                 <p>POI</p>
                 <div class="banner">
-                    <h6 class="sub-text">Grant of €???? available</h6>
+                  <h6 class="sub-text">Grant of €???? available</h6>
                 </div>
               </button>
               <button class="why-boxes box-float-right" type="submit" name="submit"
@@ -63,7 +63,7 @@
                 <h2>16 Panel System + Battery</h2>
                 <p>From €16,200</p>
                 <div class="banner">
-                    <h6 class="sub-text">Grant of €??? available</h6>
+                  <h6 class="sub-text">Grant of €??? available</h6>
                 </div>
               </button>
             </div>
@@ -72,12 +72,13 @@
     </div>
   </section>
   <script>
-                function update_values() {
-                    name_value = localStorage.getItem('name');
-                    document.getElementById("hidden_name").value = name_value;
-                }
-            </script>
+    function update_values() {
+      name_value = localStorage.getItem('name');
+      document.getElementById("hidden_name").value = name_value;
+    }
+  </script>
   <span class="spacing"></span>
   <?php include '../assets/footer.php';?>
 </body>
+
 </html>
