@@ -15,7 +15,9 @@
     <title>Vision Solar</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Vision Solar is a solar PV installation company based in Limerick."/>
+    <meta name="description" content="Switch to sustainable energy with Vision Solar, Limerick's SEAI registered PV installation company. Get expert solar panel installation and reduce your carbon footprint today!"/>
+    <meta name="keywords" content="Solar, Solar Panels, Solar Installation, SEAI">
+    <meta name="author" content="Luke Kelly, Vision Solar, Limerick">
     <style>
       body {font-family: "Lato", sans-serif; margin: 0;}
     </style>
