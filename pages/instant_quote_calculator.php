@@ -43,7 +43,7 @@
                 <input type="radio" id="semi" name="house-type" value="semi" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/house.svg"
+                    src="../icons-custom/house.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Semi-Detached</span>
@@ -56,7 +56,7 @@
                 <input type="radio" id="detached" name="house-type" value="detached" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/house.svg"
+                    src="../icons-custom/house.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Detached</span>
@@ -69,7 +69,7 @@
                 <input type="radio" id="terrace" name="house-type" value="terrace" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/house.svg"
+                    src="../icons-custom/house.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Terrace</span>
@@ -90,7 +90,7 @@
                 <input type="radio" id="morning" name="house-hours" value="morning" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/clock.svg"
+                    src="../icons-custom/clock.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Morning</span>
@@ -103,7 +103,7 @@
                 <input type="radio" id="afternoon" name="house-hours" value="afternoon" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/clock.svg"
+                    src="../icons-custom/clock.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Afternoon</span>
@@ -116,7 +116,7 @@
                 <input type="radio" id="evening" name="house-hours" value="evening" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/clock.svg"
+                    src="../icons-custom/clock.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>Evening</span>
@@ -129,7 +129,7 @@
                 <input type="radio" id="all-day" name="house-hours" value="all-day" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/clock.svg"
+                    src="../icons-custom/clock.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>All Day</span>
@@ -150,7 +150,7 @@
                 <input type="radio" id="<200" name="elec-bill" value="<200" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/electric_bolt.svg"
+                    src="../icons-custom/electric_bolt.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>200</span>
@@ -163,7 +163,7 @@
                 <input type="radio" id="200-300" name="elec-bill" value="200-300" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/electric_bolt.svg"
+                    src="../icons-custom/electric_bolt.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>€200-€300</span>
@@ -176,7 +176,7 @@
                 <input type="radio" id="300-400" name="elec-bill" value="300-400" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/electric_bolt.svg"
+                    src="../icons-custom/electric_bolt.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>€300-€400</span>
@@ -189,7 +189,7 @@
                 <input type="radio" id="400+" name="elec-bill" value="400+" />
                 <div class="plan-content next-btn">
                   <img class="image" loading="lazy"
-                    src="../icons/electric_bolt.svg"
+                    src="../icons-custom/electric_bolt.svg"
                     alt="" />
                   <div class="plan-details">
                     <span>€400+</span>

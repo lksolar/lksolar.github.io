@@ -31,6 +31,7 @@
     <script src="javascript/slideshow.js"></script>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/estimate_1.css">
+    <link rel="stylesheet" href="/css/estimate_results.css">
 
   </head>
   <body>
@@ -39,9 +40,40 @@
     <div id="privacy-policy"></div>
 
     <div>
-        <div class="estimate-heading">
-            <h1>14 Panels</h1>
-            <p>Take a look at the kits our estimate calculator suggested for your dwelling...</p>
+    <div class="estimate-heading">
+            <h1>12 Panels System</h1>
+            <p>Great news! Based on your answers we have found the perfect solar PV package for you.</p>
+            <h3>4.56kW 12 Panel System, Solis inverter &amp; Eddi Diverter (SEAI Grant of €2,400 available)</h3>
+            <p><strong>This package includes</strong></p>
+            <p>
+              <li>12 Jinko Tiger 380W modules</li>
+              <li>Solis inverter - 10 year warranty</li>
+              <li>Eddi Diverter - Divert excess Solar electricity to your hot water tank</li>
+              <li>Esdec mounting system</li>
+              <li>Grant of €2,400 included</li>
+              <li>Safe Electric Certification</li>
+              <li>SEAI application &amp; paperwork</li>
+              <li>Green loans available</li>
+              <li>2 year workmanship guarantee</li>
+            </p>
+            <h3><strong>Starting From</strong></h3>
+            <h1>€8750</h1>
+            <h3>Or</h3>
+            <h3><strong>from</strong></h3>
+            <h2>€100</h2>
+            <h3>per month</h3>
+
+            <button class="book-a-call-button" type="button">
+              <p class=quote_button_text>Book a Call!</p>
+            </button>
+            <br />
+            <br />
+            <button class="book-a-call-button" type="button">
+              <p class=quote_button_text>View Details</p>
+            </button>
+
+            <h2><strong>Not the one for you? Don&#39;t worry! We have plenty of Solar PV packages that suit your needs!</strong></h3>
+
         </div>
     </div>
     <span class="spacing"></span>

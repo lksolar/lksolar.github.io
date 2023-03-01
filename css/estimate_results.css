@@ -1,0 +1,14 @@
+.book-a-call-button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    height: 97px;
+    border-radius: 20px;
+    background: #5B9D57 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }

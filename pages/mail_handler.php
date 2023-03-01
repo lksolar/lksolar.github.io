@@ -12,18 +12,18 @@ require '../vendor/autoload.php';
 
 if(isset($_POST['submit'])){ 
     $panelKit = $_POST["submit"];
-    if($panelKit == "Learn More about our 6 Panel Kit"){
+    if($panelKit == "Learn More about option 1"){
         header("Location: /pages/solar-kits/6_panels.php");
         send_email("6 Panel Kit");
         die();
     }
-    if($panelKit == "Learn More About our 14 Panel kit"){
-        header("Location: /pages/solar-kits/14_panels.php");
+    if($panelKit == "Learn More About option 2"){
+        header("Location: /pages/solar-kits/12_panels_diverter.php");
         send_email("12 Panel Kit");
         die();
     }
-    if($panelKit == "Learn More about our 16 Panel kit options"){
-        header("Location: /pages/solar-kits/16_panels.php");
+    if($panelKit == "Learn More about option 3"){
+        header("Location: /pages/solar-kits/12_panels_battery_diverter.php");
         send_email("16 Panel Kit");
         die();
     }

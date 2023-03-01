@@ -31,6 +31,7 @@
     <script src="javascript/slideshow.js"></script>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/estimate_1.css">
+    <link rel="stylesheet" href="/css/estimate_results.css">
 
   </head>
   <body>
@@ -41,8 +42,38 @@
 
     <div>
         <div class="estimate-heading">
-            <h1>6 Panels</h1>
-            <p>Take a look at the kits our estimate calculator suggested for your dwelling...</p>
+            <h1>6 Panels System</h1>
+            <p>Great news! Based on your answers we have found the perfect solar PV package for you.</p>
+            <h3>2.28kW 6 Panel System &amp; Solis Inverter incl. SEAI Grant</h3>
+            <p><strong>This package includes</strong></p>
+            <p>
+              <li>6 Jinko Tiger 380W P-Type modules</li>
+              <li>Solis inverter - 10 year warranty</li>
+              <li>Renusol mounting system</li>
+              <li>Grant of €1,884 available</li>
+              <li>Safe Electric Certification</li>
+              <li>SEAI application &amp; paperwork</li>
+              <li>Green loans available</li>
+              <li>2 year workmanship guarantee</li>
+            </p>
+            <h3><strong>Starting From</strong></h3>
+            <h1>€5949</h1>
+            <h3>Or</h3>
+            <h3><strong>from</strong></h3>
+            <h2>€50</h2>
+            <h3>per month</h3>
+
+            <button class="book-a-call-button" type="button">
+              <p class=quote_button_text>Book a Call!</p>
+            </button>
+            <br />
+            <br />
+            <button class="book-a-call-button" type="button">
+              <p class=quote_button_text>View Details</p>
+            </button>
+
+            <h2><strong>Not the one for you? Don&#39;t worry! We have plenty of Solar PV packages that suit your needs!</strong></h3>
+
         </div>
     </div>
     <span class="spacing"></span>

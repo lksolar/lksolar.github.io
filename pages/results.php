@@ -43,27 +43,27 @@
 
             <div class="why-vs-boxes-container">
               <button class="why-boxes box-float-left" type="submit" name="submit"
-                value="Learn More about our 6 Panel Kit">
+                value="Learn More about option 1">
                 <h2>6 Panel System</h2>
-                <p>From €7,100</p>
+                <p>From €5,949</p>
                 <div class="banner">
-                  <h6 class="sub-text">Grant of €1,857 available</h6>
+                  <h6 class="sub-text">Grant of €1,884 available</h6>
                 </div>
               </button>
               <button class="why-boxes box-float-center" type="submit" name="submit"
-                value="Learn More About our 14 Panel kit">
-                <h2>12 Panel System</h2>
-                <p>POI</p>
+                value="Learn More About option 2">
+                <h2>12 Panel System + Diverter</h2>
+                <p>From €8,750</p>
                 <div class="banner">
-                  <h6 class="sub-text">Grant of €???? available</h6>
+                  <h6 class="sub-text">Grant of €2,400 available</h6>
                 </div>
               </button>
               <button class="why-boxes box-float-right" type="submit" name="submit"
-                value="Learn More about our 16 Panel kit options" onclick="update_values()">
-                <h2>16 Panel System + Battery</h2>
-                <p>From €16,200</p>
+                value="Learn More about option 3">
+                <h2>12 Panel System + Battery + Diverter</h2>
+                <p>From €14,945</p>
                 <div class="banner">
-                  <h6 class="sub-text">Grant of €??? available</h6>
+                  <h6 class="sub-text">Grant of €2,400 available</h6>
                 </div>
               </button>
             </div>
