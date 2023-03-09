@@ -44,7 +44,7 @@
         <div class="estimate-heading">
             <h1>Contact Us</h1>
             <p>Feel free to contact us using the boxes below, or email us at:</P>
-            <a href="mailto:admin@visionsolar.ie">admin@visionsolar.ie</a>
+            <a href="mailto:info@visionsolar.ie">info@visionsolar.ie</a>
         </div>
     </div>
     <form action="contact_us_mail_handler.php" method="post">
