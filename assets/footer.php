@@ -22,7 +22,7 @@
 			<div class="footer-left">
 
 				<p class="footer-links">
-					<a class="link-1" href="mailto:admin@visionsolar.ie"><i class="fa fa-envelope"></i>  info@visionsolar.ie</a>
+					<a class="link-1" href="mailto:info@visionsolar.ie"><i class="fa fa-envelope"></i>  info@visionsolar.ie</a>
 				</p>
         <p class="footer-links">
 					<a class="link-1" href="tel:+353 894948324"><i class="fa fa-phone"></i>  +353 894948324</a>
