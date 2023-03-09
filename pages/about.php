@@ -43,18 +43,11 @@ body {font-family: "Lato", sans-serif}
   
   <div style="max-width:80%;position:relative;left:10%;">
     <h2 class="text-center">About Us</h2>
-    <p class="text-center">Vision Solar is a solar PV installation company based in Limerick. Vision Solar was founded in
-2022 to help save the environment and to help households save on their energy bills amidst the
-cost of living crisis and is now one of the fastest growing solar PV companies in the countryA.
-We specialise in the design and installation of solar PV systems across Ireland, with the majority
-of our work being carried out in Limerick and the neighbouring counties. Vision Solar is a
-partner of REC, a top of the range solar panel manufacturer based in Norway. REC panels
-perform exceptionally well in low light conditions, such as those experienced in Ireland and
-Norway. We have also recently partnered with SKE, a key supplier of Huawei solar PV
-products. Huawei batteries and inverters are the best on the market. The inverters have very
-high efficiency (98%) and are easily compatible with the award winning LUNA batteries. They
-are both compatible with the Fusion Solar app which allows end users to have full control over
-their systems.</p>
+    <p class="text-center">Welcome to Vision Solar, a leading solar PV installation company based in Limerick. We are committed to providing high-quality solar energy solutions to homes and businesses across the country, helping them to reduce their carbon footprint and save money on their energy bills.</p>
+    <p class="text-center">At Vision Solar, we pride ourselves on being SEAI registered, which means we adhere to the highest industry standards for quality and safety. Grants can only be claimed for work carried out by SEAI registered companies. Our team of experienced and certified installers work closely with our clients to design and install custom solar PV systems that meet their specific energy needs.</p>
+    <p class="text-center">We use only the best equipment available in the market, and that's why we rely on REC and Jinko panels, Huawei and Solis inverters, and Renusol and ESDEC mounting systems. These products are known for their durability, efficiency, and reliability, ensuring that our clients get the most out of their solar PV system for years to come.</p>
+    <p class="text-center">Our mission is to make renewable energy accessible and affordable for everyone. That's why we offer competitive pricing, financing options, and excellent customer service. We take care of everything, from the initial consultation to the final installation, so that our clients can sit back and enjoy the benefits of clean, green energy.</p>
+    <p class="text-center">Thank you for considering Vision Solar for your solar energy needs. We look forward to working with you and helping you join the renewable energy revolution.</p>
 
   </div>
 
