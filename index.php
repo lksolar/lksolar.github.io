@@ -173,7 +173,7 @@
                   class="why-boxes box-float-center">
                   <h2 class="box-heading">Save money</h2>
                   <span class="box-text-content">
-                    <p>Installing 8 panels could save you over €1,118 each year!</p>
+                    <p>Save 50-70% on your bill and have payback in 5-10 years!</p>
                   </span>
                   <a class="box-learn-more" href="pages/why/save_money.php">...learn more!</a>
                 </div>
@@ -184,7 +184,7 @@
                   class="why-boxes box-float-right">
                   <h2 class="box-heading">Energy Security</h2>
                   <span class="box-text-content">
-                    <p>Use stored electricity during power outages!</p>
+                    <p>Power your home when the grid is down!</p>
                   </span>
                   <a class="box-learn-more" href="pages/why/energy_security.php">...learn more!</a>
                 </div>
@@ -200,7 +200,7 @@
                   class="why-boxes box-float-left">
                   <h2 class="box-heading">Fight inflation</h2>
                   <span class="box-text-content">
-                    <p>Fight inflation and win by investing in money saving assets like solar PV. </p>
+                    <p>At the current inflation rate €10,000 will have the purchasing power of €6,635 in 10 years time!</p>
                   </span>
                   <a class="box-learn-more" href="pages/why/inflation_busters.php">...learn more!</a>
                 </div>
@@ -211,8 +211,7 @@
                   class="why-boxes box-float-center">
                   <h2 class="box-heading">Quality products and service</h2>
                   <span class="box-text-content">
-                    <p>Vision Solar goes above and beyond SEAI requirements to give our customers the best experience.
-                    </p>
+                    <p>Find out how we take pride in our work!</p>
                   </span>
                   </p>
                   <a class="box-learn-more" href="pages/why/quality_service.php">...learn more!</a>

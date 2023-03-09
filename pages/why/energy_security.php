@@ -65,7 +65,9 @@
         <div class="parent-content">
           <div class="parent-content text-content-centered">
             <h2 class="text-center">Energy Security!</h2>
-            <p class="text-center">Installing a battery along with your solar PV system will allow you to store energy you generate during the day to use at a time of your choice. In the event of power outages, users who have battery systems installed will be able to keep their home or business running. This is invaluable for businesses and those working from home. </p>
+            <p class="text-center">In addition to helping you save money and protect the environment, going solar with Vision Solar can also improve your energy security with the addition of a battery storage system. A battery allows you to store excess solar energy generated during the day for use during the evening and overnight when the sun isn't shining. This means that you can continue to power your home even during power outages or when the grid is down.</p>
+            <p class="text-center">With a battery storage system, you can also maximize your solar energy usage and further reduce your reliance on the grid. Instead of exporting excess solar energy back to the grid, you can store it in your battery and use it later when you need it. This can help you achieve greater self consumption and energy independence while also reducing your exposure to future energy price hikes or grid outages.</p>
+            <p class="text-center">By choosing to go solar with Vision Solar and adding a battery storage system, you can enjoy greater energy security, reduce your reliance on the grid, and potentially save even more money on your energy bills. Our team of experts can help you design and install a custom solar and battery system that meets your energy needs and budget. Contact us today to learn more about how we can help you achieve energy security with solar and battery storage.</p>
           </div>
 
           <br />
