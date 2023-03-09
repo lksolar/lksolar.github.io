@@ -42,6 +42,7 @@
   .custom-option {
     top: 800px;
     position: absolute;
+    margin: 5%;
   }
 
   @media screen and (max-width: 600px) {
@@ -55,7 +56,6 @@
 
     .custom-option {
       top: 1500px;
-      margin: 5%;
     }
   }
 
