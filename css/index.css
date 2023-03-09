@@ -193,6 +193,13 @@
   opacity: 1;
 }
 
+.carousel-button-quote:hover {
+  background: #E9A85E;
+  border: 1px solid;
+  /* padding: 10px; */
+  box-shadow: 5px 10px #888888;
+}
+
 .quote_button_text {
   font-size: xx-large;
   color: #FFFFFF;
@@ -255,11 +262,21 @@
   padding: 2.5%;
   width: 20%;
   height: 200px;
+  display: table;
+  /* width: 250px;
+  height: 100px; */
+  text-align: center;
+  /* border: 1px solid red; */
 }
 
 .why-boxes:hover {
   color: white;
   background-color: #5B9D57;
+}
+
+.box-heading {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .why-boxes:hover .box-heading {
@@ -331,6 +348,10 @@
 
 .box-text-content {
   display: none;
+  position: absolute;
+  left: 50%; /* relative to nearest positioned ancestor or body element */
+  top: 50%; /*  relative to nearest positioned ancestor or body element */
+  transform: translate(-50%, -50%);
 }
 
 
