@@ -65,8 +65,10 @@
         <div class="parent-content">
           <div class="parent-content text-content-centered">
             <h2 class="text-center">Save the Environment!</h2>
-            <p class="text-center">The Sustainable Energy Authority of Ireland (SEAI) calculates that a single kWh of electricity leads to the emission of 635 grammes of Co2. The average Irish household uses around 4200kWh of electric in a year. A 10 panel system will generate ….. in a year. Installing solar PV could prevent ….. of Co2 emissions. Installing solar PV is guaranteed to help lower your Co2 emissions and save the environment.
-              </p>
+            <p class="text-center">By switching to solar power with Vision Solar, you can significantly reduce your carbon footprint and help preserve the environment for generations to come. A typical residential solar panel system in Ireland can offset approximately 2-3 tons of CO2 emissions per year, which is equivalent to planting around 50 trees.</p>
+            <p class="text-center">But the impact of solar power on reducing CO2 emissions isn't just limited to individual households. In Ireland, the government has set a target to reduce greenhouse gas emissions by 51% by 2030. By choosing to go solar with Vision Solar, you can contribute to this target and help Ireland transition to a low-carbon economy.</p>
+            <p class="text-center">Moreover, solar power can also help reduce Ireland's dependence on imported fossil fuels, which can improve energy security and reduce energy costs over time. In addition, solar power can also help create local jobs in the solar industry and support the growth of renewable energy in Ireland.</p>
+            <p class="text-center">By choosing to go solar with Vision Solar, you're not only reducing your own carbon footprint but also contributing to Ireland's efforts to combat climate change and protect the environment. Switching to solar power is not just a smart financial decision, it's also an investment in the future of Ireland and the planet.</p>
           </div>
 
         <br />

@@ -162,9 +162,8 @@
                   class="why-boxes box-float-left">
                   <h2 class="box-heading">Save the environment!</h2>
                   <span class="box-text-content">
-                    <p>Solar PV could lower your Co2 emissions by over half a tonne each year!</p>
+                    <p>Offset 2-3 tonnes of CO2 emissions per year - the equivalent of planting 50 trees!</p>
                   </span>
-                  <a class="box-learn-more" href="pages/why/save_the_environment.php">...learn more!</a>
                 </div>
               </a>
               <!-- Box 2 of 3 -->
@@ -175,7 +174,6 @@
                   <span class="box-text-content">
                     <p>Save 50-70% on your bill and have payback in 5-10 years!</p>
                   </span>
-                  <a class="box-learn-more" href="pages/why/save_money.php">...learn more!</a>
                 </div>
               </a>
               <!-- Box 3 of 3 -->
@@ -186,7 +184,6 @@
                   <span class="box-text-content">
                     <p>Power your home when the grid is down!</p>
                   </span>
-                  <a class="box-learn-more" href="pages/why/energy_security.php">...learn more!</a>
                 </div>
               </a>
             </div>
@@ -202,7 +199,6 @@
                   <span class="box-text-content">
                     <p>At the current inflation rate €10,000 will have the purchasing power of €6,635 in 10 years time!</p>
                   </span>
-                  <a class="box-learn-more" href="pages/why/inflation_busters.php">...learn more!</a>
                 </div>
               </a>
               <!-- Box 2 of 3 -->
@@ -214,7 +210,6 @@
                     <p>Find out how we take pride in our work!</p>
                   </span>
                   </p>
-                  <a class="box-learn-more" href="pages/why/quality_service.php">...learn more!</a>
                 </div>
               </a>
               <!-- Box 3 of 3 -->
@@ -225,7 +220,6 @@
                   <span class="box-text-content">
                     <p>Government grants of up to €2400 are available now</p>
                   </span>
-                  <a class="box-learn-more" href="pages/why/grant_availablity.php">...learn more!</a>
                 </div>
               </a>
             </div>
