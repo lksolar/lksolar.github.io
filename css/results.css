@@ -39,12 +39,24 @@
     margin-left: 50px;
   }
 
+  .custom-option {
+    top: 800px;
+    position: absolute;
+  }
+
   @media screen and (max-width: 600px) {
     .spacing{
-      height: 900px;
+      height: 1200px;
     }
 
     .banner {
       display: block;
     }
+
+    .custom-option {
+      top: 1500px;
+      margin: 5%;
+    }
   }
+
+  
