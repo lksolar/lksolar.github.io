@@ -203,7 +203,7 @@
 
         <div class="step step-4">
           <div class="estimate-heading">
-            <p>Nearly there! We just need a few details to complete your calculation!</p>
+            <p>Nearly there! Our Sales Team just need a few details to complete your calculation!</p>
           </div>
           <!-- <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" value="John"><br>
