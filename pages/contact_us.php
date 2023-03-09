@@ -55,7 +55,10 @@
           <br />
           <input placeholder="E-mail" maxlength="100" id="email" name="form-email" type="text" required>
           <br />
-          <input placeholder="Message" maxlength="500" id="message" name="form-message" type="text" required>
+          <div>
+          <textarea id="message" class="text-area" name="form-message" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+          <!-- <input class="input-box" placeholder="Message" maxlength="500" id="message" name="form-message" type="text" required> -->
           
           <!-- <label for="form-auth">
               <input id="form-auth" type="checkbox">

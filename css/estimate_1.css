@@ -95,3 +95,10 @@
     height: 400px;
     display: block;
   }
+
+.text-area {
+    height: 200px;
+    width: 206%;
+    position: relative;
+    float: right;
+}
