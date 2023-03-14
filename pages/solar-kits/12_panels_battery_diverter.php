@@ -43,36 +43,67 @@
         <div class="estimate-heading">
             <h1>12 Panels System</h1>
             <p>Great news! Based on your answers we have found the perfect solar PV package for you.</p>
-            <h3>4.56kW 12 Panel System, Solis inverter, Fox ESS battery &amp; Eddi Divertor (SEAI Grant of €2,400
-available)</h3>
-            <p><strong>This package includes</strong></p>
+            <div class="image-container slideshow-container">
+              <img class="slideshow-img" src="/images/logos/jinko/JinkoMonofacial-black frame.png" alt="Jinko Frame">
+              <img class="slideshow-img" src="/images/logos/renusol/RenusolTechnicalDrawing.jpg" alt="Renusol Mounting System">
+              <img class="slideshow-img" src="/images/logos/solis/Solis1PhS6Inverter.jpg" alt="Solis Inverter">
+            </div>
+            <h3>5.04kW 12 Panel System, Solis inverter, Fox ESS battery &amp; Eddi Diverter (SEAI Grant of €2,400 available)</h3>
+            <br />
+            <div class="container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Panels</td>
+                    <td>12 Jinko Tiger Neo 420W modules</td>
+                  </tr>
+                  <tr>
+                    <td>Inverter</td>
+                    <td>Solis inverter with 10 year warranty</td>
+                  </tr>
+                  <tr>
+                    <td>Battery</td>
+                    <td>Fox ESS 5.12kWh battery</td>
+                  </tr>
+                  <tr>
+                    <td>Diverter</td>
+                    <td>EDDI Diverter</td>
+                  </tr>
+                  <tr>
+                    <td>Mounting</td>
+                    <td>Renusol mounting system</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br />
+            <p><strong>Notes</strong></p>
             <p>
-              <li>12 Jinko Tiger 380W modules</li>
-              <li>Solis inverter - 10 year warranty</li>
-              <li>Fox ESS Battery</li>
-              <li>Eddi Diverter - Divert excess Solar electricity to your hot water tank</li>
-              <li>Esdec mounting system</li>
-              <li>Grant of €2,400 included</li>
+              <li>Eddi Diverter - Diverts excess Solar electricity to your hot water tank</li>
+              <li>Grant of €2,400 available</li>
               <li>Safe Electric Certification</li>
               <li>SEAI application &amp; paperwork</li>
               <li>Green loans available</li>
               <li>2 year workmanship guarantee</li>
             </p>
-            <h3><strong>Starting From</strong></h3>
-            <h1>€14945</h1>
-            <h3>Or</h3>
-            <h3><strong>from</strong></h3>
-            <h2>€150</h2>
-            <h3>per month</h3>
+            <h3><strong>Pricing</strong></h3>
+            <h1>€14,495</h1>
+            <br /><br /><br /><br /><br /><br />
 
-            <button class="book-a-call-button" type="button">
+            <!-- <button class="book-a-call-button" type="button">
               <p class=quote_button_text>Book a Call!</p>
             </button>
             <br />
             <br />
             <button class="book-a-call-button" type="button">
               <p class=quote_button_text>View Details</p>
-            </button>
+            </button> -->
 
             <h2><strong>Not the one for you? Don&#39;t worry! We have plenty of Solar PV packages that suit your needs!</strong></h3>
 
@@ -80,6 +111,25 @@ available)</h3>
     </div>
     <span class="spacing"></span>
     <div id="footer"></div>
+    <script>
+      /* Automatic cycling */
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("slideshow-img");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.opacity = "0";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex-1].style.opacity = "1";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+      }
+    </script>
     <?php
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function

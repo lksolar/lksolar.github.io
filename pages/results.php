@@ -46,7 +46,7 @@
               <button class="why-boxes box-float-left" type="submit" name="submit"
                 value="Learn More about option 1">
                 <h2>6 Panel System</h2>
-                <p>From €5,949</p>
+                <p>From €6,311</p>
                 <div class="banner">
                   <h6 class="sub-text">Grant of €1,884 available</h6>
                 </div>
@@ -54,7 +54,7 @@
               <button class="why-boxes box-float-center" type="submit" name="submit"
                 value="Learn More About option 2">
                 <h2>12 Panel System + Diverter</h2>
-                <p>From €8,750</p>
+                <p>From €9,695</p>
                 <div class="banner">
                   <h6 class="sub-text">Grant of €2,400 available</h6>
                 </div>
@@ -62,7 +62,7 @@
               <button class="why-boxes box-float-right" type="submit" name="submit"
                 value="Learn More about option 3">
                 <h2>12 Panel System + Battery + Diverter</h2>
-                <p>From €14,945</p>
+                <p>From €14,495</p>
                 <div class="banner">
                   <h6 class="sub-text">Grant of €2,400 available</h6>
                 </div>
