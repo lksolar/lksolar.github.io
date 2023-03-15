@@ -102,13 +102,13 @@
               <img src="/images/house_with_panels_istock.jpg" alt="Solar 1" style="width:100%;">
             </div>
             <!-- Second image, dots, text and buttons -->
-            <!-- <div class="item">
-                <span class="info-dot dot-position-2 myDIV"></span>
+            <div class="item">
+                <!-- <span class="info-dot dot-position-2 myDIV"></span>
                 <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2</p></span>
                 <span class="info-dot dot-position-2-2 myDIV"></span>
-                <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2-2</p></span>
-                <img src="/images/istock_2.jpg" alt="Solar 2" style="width:100%;">
-              </div> -->
+                <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2-2</p></span> -->
+                <img src="/images/Lydney.jpg" alt="Solar 2" style="width:100%;">
+              </div>
             <!-- Third image, dots, text and buttons -->
             <!-- <div class="item">
                 <span class="info-dot dot-position-3 myDIV"></span>
