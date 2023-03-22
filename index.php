@@ -69,61 +69,21 @@
   <div>
     <div>
       <div class="full-container" style="width:100%">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="slideshow-container">
 
-          <!-- <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol> -->
+<div class="mySlides fade">
+  <img src="/images/house_with_panels_istock.jpg" style="width:100%">
+</div>
 
-          <div class="carousel-inner">
-            <!-- First image, dots, text and buttons -->
-            <div class="item active">
-              <!-- <span class="info-dot dot-position-1 myDIV"></span>
-                <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 1</p></span>
-                <span class="info-dot dot-position-1-2 myDIV"></span>
-                <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 1-2</p></span> -->
-              <img src="/images/house_with_panels_istock.jpg" alt="Solar 1" style="width:100%;">
-            </div>
-            <!-- Second image, dots, text and buttons -->
-            <div class="item">
-                <!-- <span class="info-dot dot-position-2 myDIV"></span>
-                <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2</p></span>
-                <span class="info-dot dot-position-2-2 myDIV"></span>
-                <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2-2</p></span> -->
-                <img src="/images/Lydney.jpg" alt="Solar 2" style="width:100%;">
-              </div>
-            <!-- Third image, dots, text and buttons -->
-            <!-- <div class="item">
-                <span class="info-dot dot-position-3 myDIV"></span>
-                <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3</p></span>
-                <span class="info-dot dot-position-3-2 myDIV"></span>
-                <span class="dot-position-4 hide-custom" id="show-box"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3-2</p></span>
-                <img src="/images/istock_3.jpg" alt="Solar 3" style="width:100%;">
-              </div> -->
-            <a href="/pages/instant_quote_calculator.php">
-              <button onclick="ga('send', 'event', 'type_here_your_category_event', 'type_here_your_event_name');"
-                class="carousel-button-quote" type="button">
-                <p class=quote_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p>
-                <p class=reduced_quote_button_text>Get a Quote!</p>
-              </button>
-            </a>
-            <!-- <a href="/pages/grant_calculator.html">
-                <button class="carousel-button-other" type="button">Grant Calculator!</button>
-              </a> -->
-          </div>
+<div class="mySlides fade">
+  <img src="/images/Lydney.jpg" style="width:100%">
+</div>
 
-          <!-- Left and right controls -->
-          <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <i class="fa fa-chevron-left prev" style="font-size:36px"></i>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <i class="fa fa-chevron-right next" style="font-size:36px"></i>
-              <span class="sr-only">Next</span>
-            </a> -->
-        </div>
+
+<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+</div>
+<br>
       </div>
 
       <div class="parent-content">
@@ -236,6 +196,35 @@
 
   <!-- <span class="spacing"></span> -->
   <?php include 'assets/footer.php';?>
+
+  <script>
+      var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  setTimeout(showSlides, 3000);
+}
+    </script>
 
 </body>
 
