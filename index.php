@@ -35,9 +35,6 @@
       margin: 0;
     }
   </style>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-  </script>
   <script>
     $(function () {
       $("#header").load("/assets/header.html");
@@ -46,19 +43,8 @@
     });
   </script>
   <link rel="icon" type="image/png" href="images/Vision_solar_logo_eye_sun_small.png">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <script src="javascript/slideshow.js"></script>
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="/css/index.css">
-  <link rel="stylesheet" href="/css/navbar.css">
-  <link rel="stylesheet" href="/css/bootstrap.css">
 
 </head>
 <!-- Google tag (gtag.js) -->
@@ -76,7 +62,6 @@
 
 <body>
   <?php include 'assets/header.php';?>
-  <!-- <?php include 'assets/privacy-policy.php';?> -->
 
   <!-- <div id="header"></div> -->
   <div id="privacy-policy"></div>
@@ -230,44 +215,12 @@
   </div>
 
 
-
-
-  <!-- <div class="parent-content">
-            <div class="child-content" id="myChart" style="width: 100%; height: 40%;"></div>
-          </div>
-          <script>
-            google.charts.load('current',{packages:['corechart']});
-            google.charts.setOnLoadCallback(drawChart);
-
-            function drawChart() {
-            // Set Data
-            var data = google.visualization.arrayToDataTable([
-              ['Cost', 'Unit(kWh'],
-              [50,7],[60,8],[70,8],[80,9],[90,9],
-              [100,9],[110,10],[120,11],
-              [130,14],[140,14],[150,15]
-            ]);
-            // Set Options
-            var options = {
-              title: 'Price of Electricity over time',
-              hAxis: {title: 'Cost'},
-              vAxis: {title: 'Unit'},
-              legend: 'none'
-            };
-            // Draw
-            var chart = new google.visualization.LineChart(document.getElementById('myChart'));
-            chart.draw(data, options);
-            }
-          </script> -->
-
-
-
   </div>
   </div>
   <span class="spacing"></span>
 
 
-  <div class="get-in-touch-container">
+  <!-- <div class="get-in-touch-container">
     <div class="get-in-touch-image">
       <img src="./images/Logo.Brand_VS-01.png" alt="vision_solar_logo" width="500" height="600">
     </div>
@@ -276,7 +229,7 @@
       <h3 class="get-in-touch-header">Get in touch <a href="/pages/contact_us.php">here!? <i
             class="fas fa-arrow-circle-right orange"></i></a></h3>
     </div>
-  </div>
+  </div> -->
   <br />
   <br /><br /><br /><br />
 
