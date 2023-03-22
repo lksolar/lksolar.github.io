@@ -313,12 +313,18 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  .text-center {
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+  
   .why-vs-boxes-container {
     overflow-x: visible;
   }
 
   .why-boxes {
-    width: 80%;
+    width: -webkit-fill-available;
   }
   
   .box-float-left {
