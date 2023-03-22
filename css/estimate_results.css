@@ -73,3 +73,36 @@
       max-width: 100%;
     }
   }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  #renusol-logo {
+    padding-top: 30%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    #renusol-logo {
+      padding-top: 0;
+    }
+  }
+
+  .system-images {
+    display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			height: auto;
+  }

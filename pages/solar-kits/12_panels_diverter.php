@@ -43,10 +43,21 @@
     <div class="estimate-heading">
             <h1>12 Panels System</h1>
             <p>Great news! Based on your answers we have found the perfect solar PV package for you.</p>
-            <div class="image-container slideshow-container">
+            <!-- <div class="image-container slideshow-container">
               <img class="slideshow-img" src="/images/logos/jinko/JinkoMonofacial-black frame.png" alt="Jinko Frame">
-              <img class="slideshow-img" src="/images/logos/renusol/RenusolTechnicalDrawing.jpg" alt="Renusol Mounting System">
+              <img class="slideshow-img" src="/images/logos/renusol/Renusol_Logo_RGB_high_res.jpg" alt="Renusol Mounting System">
               <img class="slideshow-img" src="/images/logos/solis/Solis1PhS6Inverter.jpg" alt="Solis Inverter">
+            </div> -->
+            <div class="row">
+              <div class="column">
+                <img class="system-images" src="/images/logos/jinko/JinkoMonofacial-black frame.png" style="width:100%">
+              </div>
+              <div class="column">
+                <img class="system-images" src="/images/logos/solis/Solis1PhS6Inverter.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <img class="system-images" id="renusol-logo" src="/images/logos/renusol/Renusol_Logo_RGB_high_res.jpg" style="width:100%">
+              </div>
             </div>
             <h3>5.04kW 12 Panel System, Solis inverter &amp; Eddi Diverter (SEAI Grant of €2,400 available)</h3>
             <br />
