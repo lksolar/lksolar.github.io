@@ -78,7 +78,13 @@
 <div class="mySlides fade">
   <img src="/images/Lydney.jpg" style="width:100%">
 </div>
-
+<a href="/pages/instant_quote_calculator.php">
+              <button onclick="ga('send', 'event', 'type_here_your_category_event', 'type_here_your_event_name');"
+                class="carousel-button-quote" type="button">
+                <p class=quote_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p>
+                <p class=reduced_quote_button_text>Get a Quote!</p>
+              </button>
+            </a>
 
 <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
