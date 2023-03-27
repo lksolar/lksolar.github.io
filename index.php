@@ -88,6 +88,23 @@
 <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 </div></div></div>
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  
+  <div style="max-width:80%;position:relative;left:10%;">
+    <h2 class="text-center">About Vision Solar</h2>
+    <p class="text-center">Welcome to Vision Solar, a leading solar PV installation company based in Limerick. We are committed to providing high-quality solar energy solutions to homes and businesses across the country, helping them to reduce their carbon footprint and save money on their energy bills.</p>
+    <p class="text-center">At Vision Solar, we pride ourselves on being SEAI registered, which means we adhere to the highest industry standards for quality and safety. Grants can only be claimed for work carried out by SEAI registered companies. Our team of experienced and certified installers work closely with our clients to design and install custom solar PV systems that meet their specific energy needs.</p>
+    <p class="text-center">We use only the best equipment available in the market, and that's why we rely on REC and Jinko panels, Huawei and Solis inverters, and Renusol and ESDEC mounting systems. These products are known for their durability, efficiency, and reliability, ensuring that our clients get the most out of their solar PV system for years to come.</p>
+    <p class="text-center">Our mission is to make renewable energy accessible and affordable for everyone. That's why we offer competitive pricing, financing options, and excellent customer service. We take care of everything, from the initial consultation to the final installation, so that our clients can sit back and enjoy the benefits of clean, green energy.</p>
+    <p class="text-center">Thank you for considering Vision Solar for your solar energy needs. We look forward to working with you and helping you join the renewable energy revolution.</p>
+
+  </div>
+
+  
+</div>
+<br /><br /><br />
 <!-- Commenting out of everything below slideshow starts here -->
 <!-- <br>
       </div>

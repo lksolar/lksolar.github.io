@@ -1,5 +1,9 @@
 * {box-sizing:border-box}
 
+ body {
+  background-color: rgb(230, 230, 230);
+ }
+
 .orange {
   color: #E9A85E;
 }
