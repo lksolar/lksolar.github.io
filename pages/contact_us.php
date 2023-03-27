@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/estimate_1.css">
     <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/contact_us.css">
 
   </head>
   <body>
@@ -45,9 +46,12 @@
             <h1>Contact Us</h1>
             <p>Feel free to contact us using the boxes below, or email us at:</P>
             <a href="mailto:info@visionsolar.ie">info@visionsolar.ie</a>
+            <br /><br />
+            <p>Or give us a call on: </p>
+            <a class="link-1" href="tel:+353 894948324"><i class="fa fa-phone"></i>  +353 894948324</a>
         </div>
     </div>
-    <form action="contact_us_mail_handler.php" method="post">
+    <!-- <form action="contact_us_mail_handler.php" method="post">
     <div class="form-bg">
       <br />
       <div class="form">
@@ -58,22 +62,59 @@
           <div>
           <textarea id="message" class="text-area" name="form-message" placeholder="Write something.." style="height:200px"></textarea>
           </div>
-          <!-- <input class="input-box" placeholder="Message" maxlength="500" id="message" name="form-message" type="text" required> -->
           
-          <!-- <label for="form-auth">
-              <input id="form-auth" type="checkbox">
-              <div class="box"></div>
-              <sup>
-                  I agree to give my information to be used to contact me.
-              </sup>
-          </label> -->
+          
       </div>
       <br />
       <button type="submit" name="submit" class="send-button">Send</button>
       <br /><br />
       </div>
       
+    </form> -->
+    <div class="form-main-wrapper">
+  <!-- Author: form Team -->
+  <!-- Learn More: https://form.com -->
+  <div class="form-form-wrapper">
+    <form action="contact_us_mail_handler.php" method="POST">
+      <div class="form-mb-5">
+        <label for="name" class="form-form-label"> Full Name </label>
+        <input
+          type="text"
+          id="fname" 
+          name="fname"
+          placeholder="Full Name"
+          class="form-form-input"
+        />
+      </div>
+
+      <div class="form-mb-5">
+        <label for="email" class="form-form-label"> Email Address </label>
+        <input
+          type="email"
+          id="email" 
+          name="form-email"
+          placeholder="Enter your email"
+          class="form-form-input"
+        />
+      </div>
+
+      <div class="form-mb-5">
+        <label for="message" class="form-form-label"> Message </label>
+        <textarea
+          rows="6"
+          id="message" 
+          name="form-message"
+          placeholder="Type your message"
+          class="form-form-input"
+        ></textarea>
+      </div>
+
+      <button type="submit" name="submit" class="send-button">Send</button>
     </form>
+  </div>
+</div>
+
+
     <span class="spacing"></span>
     <div id="footer"></div>
 

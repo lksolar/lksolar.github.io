@@ -85,29 +85,21 @@
                 <p class=reduced_quote_button_text>Get a Quote!</p>
               </button>
             </a>
-
 <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
-</div>
-<br>
+</div></div></div>
+<!-- Commenting out of everything below slideshow starts here -->
+<!-- <br>
       </div>
 
       <div class="parent-content">
-        <!-- <div class="parent-content text-content-centered">
-            <h2 class="text-center">About Us!</h2>
-            <p class="text-center"><i>Needs Designs</i></p>
-            <p class="text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div> -->
+
         <br />
 
         <div class="parent-content text-content-centered">
           <h2 class="text-center">Why Vision Solar</h2>
           <div class="why-vs-boxes-container">
             <div>
-              <!-- Box 1 of 3 -->
               <a class="save-env-box">
                 <div style="cursor: pointer;" onclick="window.location='pages/why/save_the_environment.php';"
                   class="why-boxes box-float-left">
@@ -118,7 +110,6 @@
                   <span class="learn-more" style="position: absolute; bottom: 2%; right: 2%;">...learn more</span>
                 </div>
               </a>
-              <!-- Box 2 of 3 -->
               <a class="save-money">
                 <div style="cursor: pointer;" onclick="window.location='pages/why/save_money.php';"
                   class="why-boxes box-float-center">
@@ -129,7 +120,6 @@
                   <span class="learn-more" style="position: absolute; bottom: 2%; right: 2%;">...learn more</span>
                 </div>
               </a>
-              <!-- Box 3 of 3 -->
               <a class="next-btn">
                 <div style="cursor: pointer;" onclick="window.location='pages/why/energy_security.php';"
                   class="why-boxes box-float-right">
@@ -145,7 +135,6 @@
           <span class="box-spacer-y"></span>
           <div class="why-vs-boxes-container">
             <div>
-              <!-- Box 1 of 3 -->
               <a class="next-btn">
                 <div style="cursor: pointer;" onclick="window.location='pages/why/inflation_busters.php';"
                   class="why-boxes box-float-left">
@@ -156,7 +145,6 @@
                   <span class="learn-more" style="position: absolute; bottom: 2%; right: 2%;">...learn more</span>
                 </div>
               </a>
-              <!-- Box 2 of 3 -->
               <a class="next-btn">
                 <div style="cursor: pointer;" onclick="window.location='pages/why/quality_service.php';"
                   class="why-boxes box-float-center">
@@ -167,7 +155,6 @@
                   <span class="learn-more" style="position: absolute; bottom: 2%; right: 2%;">...learn more</span>
                 </div>
               </a>
-              <!-- Box 3 of 3 -->
               <a class="next-btn">
                 <div style="cursor: pointer;" onclick="window.location='pages/why/grant_availability.php';"
                   class="why-boxes box-float-right">
@@ -191,7 +178,7 @@
   <span class="spacing"></span>
 
 
-  <!-- <div class="get-in-touch-container">
+  <div class="get-in-touch-container">
     <div class="get-in-touch-image">
       <img src="./images/Logo.Brand_VS-01.png" alt="vision_solar_logo" width="500" height="600">
     </div>
@@ -200,9 +187,9 @@
       <h3 class="get-in-touch-header">Get in touch <a href="/pages/contact_us.php">here!? <i
             class="fas fa-arrow-circle-right orange"></i></a></h3>
     </div>
-  </div> -->
+  </div>
   <br />
-  <br /><br /><br /><br />
+  <br /><br /><br /><br /> -->
 
 
   <!-- <span class="spacing"></span> -->
