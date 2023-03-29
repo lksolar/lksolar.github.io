@@ -56,7 +56,7 @@ try {
         $mail->Body    = "Email: " . $email . "\r\n<br />" . "Message: " . $message;
     }
     
-    header("Location: /pages/contact_us.php");
+    header("Location: /pages/contact-us.php");
     $mail->send();
     // if($panelKit == "Learn More about our 6 Panel Kit"){
     //     header("Location: /pages/solar-kits/6_panels.php");

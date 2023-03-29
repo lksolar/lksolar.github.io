@@ -27,13 +27,13 @@
                 <a href="../../index.php">Home</a>
             </li>
             <li>
-                <a href="../../pages/instant_quote_calculator.php">Quote</a>
+                <a href="../../pages/instant-quote-calculator.php">Quote</a>
             </li>
             <li>
                 <a href="../../pages/about.php">About</a>
             </li>
             <li>
-                <a href="../../pages/contact_us.php">Contact</a>
+                <a href="../../pages/contact-us.php">Contact</a>
             </li>
         </ul>
     </nav>

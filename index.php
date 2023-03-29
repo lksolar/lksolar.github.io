@@ -78,7 +78,7 @@
 <div class="mySlides fade">
   <img src="/images/Lydney.jpg" style="width:100%" alt="image of house with solar panels">
 </div>
-<a href="/pages/instant_quote_calculator.php">
+<a href="/pages/instant-quote-calculator.php">
               <button onclick="ga('send', 'event', 'type_here_your_category_event', 'type_here_your_event_name');"
                 class="carousel-button-quote" type="button">
                 <p class=quote_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p>
@@ -201,7 +201,7 @@
     </div>
     <div class="get-in-touch-text">
       <h1 class="get-in-touch-header">Interested?</h1>
-      <h3 class="get-in-touch-header">Get in touch <a href="/pages/contact_us.php">here!? <i
+      <h3 class="get-in-touch-header">Get in touch <a href="/pages/contact-us.php">here!? <i
             class="fas fa-arrow-circle-right orange"></i></a></h3>
     </div>
   </div>

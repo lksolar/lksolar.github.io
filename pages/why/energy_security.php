@@ -74,7 +74,7 @@
 
         <div class="cta_container">
 
-          <a href="../instant_quote_calculator.php">
+          <a href="../instant-quote-calculator.php">
             <button class="cta-button-quote" type="button"><p class=cta_button_text>Get an Instant Quote! <i class="fa-solid fa-arrow-right"></i></p></button>
           </a>
         </div>

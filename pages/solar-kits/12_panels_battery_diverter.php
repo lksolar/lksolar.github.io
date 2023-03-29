@@ -117,7 +117,7 @@
             </button> -->
 
             <h2><strong>Not the one for you? Don&#39;t worry! We have plenty of Solar PV packages that suit your needs!</strong></h3>
-            <h2>Get in touch with us <a href="/pages/contact_us.php">here!</a> or email us at: <a class="link-1" href="mailto:info@visionsolar.ie">  info@visionsolar.ie</a></h2>
+            <h2>Get in touch with us <a href="/pages/contact-us.php">here!</a> or email us at: <a class="link-1" href="mailto:info@visionsolar.ie">  info@visionsolar.ie</a></h2>
         </div>
     </div>
     <span class="spacing"></span>
