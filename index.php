@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js)
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XMCMYLZC7L"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -15,7 +15,17 @@
 
     gtag('config', 'G-XMCMYLZC7L');
   </script>
-  <!-- End of GTAG-->
+  End of GTAG -->
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQ96YVTXVJ">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SQ96YVTXVJ');
+</script>
   <title>Vision Solar: Limericks Choice for Solar Installation!</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
