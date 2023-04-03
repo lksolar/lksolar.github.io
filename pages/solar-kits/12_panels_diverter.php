@@ -55,8 +55,11 @@
               <div class="column">
                 <img class="system-images" src="/images/logos/solis/Solis1PhS6Inverter.jpg" style="width:100%">
               </div>
-              <div class="column">
+              <!-- <div class="column">
                 <img class="system-images" id="renusol-logo" src="/images/logos/renusol/Renusol_Logo_RGB_high_res.jpg" style="width:100%">
+              </div> -->
+              <div class="column">
+                <img class="system-images" id="eddie-divert" src="/images/logos/eddie/eddie2.jpg" style="width:100%">
               </div>
             </div>
             <h3>5.04kW 12 Panel System, Solis inverter &amp; Eddi Diverter (SEAI Grant of €2,400 available)</h3>
@@ -99,7 +102,7 @@
               <li>2 year workmanship guarantee</li>
             </p>
             <h3><strong>Pricing</strong></h3>
-            <h1>€9,695</h1>
+            <h1>€8,200</h1>
             <br /><br /><br /><br /><br /><br />
 
             <!-- <button class="book-a-call-button" type="button">

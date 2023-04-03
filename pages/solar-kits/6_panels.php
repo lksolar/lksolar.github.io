@@ -98,8 +98,8 @@
               <li>Green loans available</li>
               <li>2 year workmanship guarantee</li>
             </p>
-            <h3><strong>Pricing</strong></h3>
-            <h1>€6,311</h1>
+            <h3><strong>From</strong></h3>
+            <h1>€5,850</h1>
             <br /><br /><br /><br /><br /><br /><br /><br />
             <!-- <h3>Or</h3>
             <h3><strong>from</strong></h3>

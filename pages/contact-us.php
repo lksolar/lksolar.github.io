@@ -115,8 +115,11 @@
 </div>
 
 
-    <span class="spacing"></span>
-    <div id="footer"></div>
+    <!-- <span class="spacing"></span> -->
+    <br />
+    <br />
+    <br />
+    <?php include '../assets/footer.php';?>
 
     </body>
 </html>
