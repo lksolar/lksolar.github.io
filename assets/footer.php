@@ -27,7 +27,7 @@
         <p class="footer-links">
 		<a class="link-1" href="tel:+353 894948324"><i class="fa fa-phone"></i>  +353 894948324</a>
 		<br />
-		<a class="link-1" href="tel:+353 894948324"><i class="fa fa-phone"></i>  +353 834488196</a>
+		<a class="link-1" href="tel:+353 834488196"><i class="fa fa-phone"></i>  +353 834488196</a>
 				</p>
 			</div>
 
